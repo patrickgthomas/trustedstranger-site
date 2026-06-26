@@ -78,9 +78,9 @@ nav a:hover {
 }
 
 main {
-  max-width: 1120px;
+  max-width: 1050px;
   margin: 0 auto;
-  padding: 3rem 1.25rem;
+  padding: clamp(2rem, 5vw, 4rem) 1.25rem;
 }
 
 section {
