@@ -263,53 +263,68 @@ footer a:hover {
   margin-bottom: 1rem;
 }
 
-#apps .features {
-  grid-template-columns: repeat(4, 1fr);
+/* APP / PRODUCT CARDS */
+
+#apps,
+#books {
+  margin-top: clamp(3rem, 6vw, 5rem);
 }
 
-#apps .feature-card {
-  min-height: 245px;
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.35rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   padding: 1.6rem;
+  min-height: 260px;
+  box-shadow: 0 10px 30px rgba(31, 51, 70, 0.08);
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-4px);
-  transition: all 0.2s ease;
+  box-shadow: var(--shadow);
 }
 
-#apps .feature-card h3 {
+.feature-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.85rem;
+  color: var(--deep-navy);
   font-size: 1.15rem;
-  margin-bottom: 0.75rem;
 }
 
-#features {
-  margin-top: 3rem;
-}
-
-#features h2 {
-  margin-bottom: 2rem;
-  font-size: clamp(2rem, 4vw, 3rem);
-}
-
-.feature-card {
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-}
-
-#apps .feature-card p {
+.feature-card p {
+  color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.55;
+  margin-bottom: 1.25rem;
 }
 
-#apps .feature-card .button {
-  width: 100%;
-  margin-top: 1rem;
+.feature-card .button {
+  width: auto;
+  align-self: flex-start;
+  margin-top: auto;
   min-height: 42px;
+  padding: 0.7rem 1.15rem;
   font-size: 0.9rem;
-  padding: 0.7rem 1rem;
 }
+
+/* BOOKS */
+
+#books .features {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* FAQ */
 
 #faq {
   margin-top: 3rem;
@@ -341,6 +356,8 @@ footer a:hover {
   transform: translateY(-4px);
 }
 
+/* LEGAL PAGES */
+
 .legal-page {
   max-width: 900px;
   margin: 0 auto;
@@ -358,37 +375,23 @@ footer a:hover {
   margin-top: 2rem;
 }
 
+/* RESPONSIVE */
+
+@media (max-width: 1000px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #books .features {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.55rem;
   }
 
-@media (max-width: 1000px) {
-  #apps .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 620px) {
-  #apps .features {
-    grid-template-columns: 1fr;
-  }
-}
-
-#books {
-  margin-top: clamp(3rem, 6vw, 5rem);
-}
-
-#books .features {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-@media (max-width: 900px) {
-  #books .features {
-    grid-template-columns: 1fr;
-  }
-}
-  
   nav ul {
     gap: 1rem;
   }
@@ -399,5 +402,15 @@ footer a:hover {
 
   .hero {
     text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .features {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card .button {
+    width: 100%;
   }
 }
