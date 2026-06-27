@@ -257,8 +257,8 @@ button:hover {
 /* HERO */
 
 .hero {
-  min-height: 760px;
-  padding: 7rem 1.5rem 2rem;
+  min-height: 880px;
+  padding: 7rem 1.5rem 8rem;
   padding-bottom: 8rem;
   position: relative;
   display: grid;
@@ -278,10 +278,10 @@ button:hover {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(7, 21, 38, 0.18), rgba(7, 21, 38, 0.1)),
-    url("../images/backgrounds/mountain-path-hero.jpg");
+    url("../images/home/mountain-path-hero.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.45;
+  opacity: 0.65;
   pointer-events: none;
 }
 
@@ -335,7 +335,7 @@ button:hover {
 }
 
 .hero-app-copy p {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.86);
 }
 
 .blue-eyebrow {
@@ -351,7 +351,7 @@ button:hover {
 
 .hero-center h1 {
   font-size: clamp(3rem, 5vw, 5rem);
-  color: var(--white);
+  color: #ffffff;
 }
 
 .hero-center h1 span {
@@ -361,7 +361,8 @@ button:hover {
 .hero-summary {
   max-width: 330px;
   margin: 1.35rem auto 0;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
 }
 
 .hero-right {
@@ -758,7 +759,7 @@ button:hover {
   min-height: 330px;
   background:
     linear-gradient(180deg, rgba(7, 21, 38, 0.58), rgba(7, 21, 38, 0.96)),
-    url("../images/backgrounds/mountain-path-hero.jpg");
+    url("../images/home/mountain-path-hero.png");
   background-size: cover;
   background-position: center bottom;
   color: var(--white);
@@ -825,7 +826,7 @@ details p {
 .final-cta {
   background:
     linear-gradient(90deg, rgba(7, 21, 38, 0.98), rgba(7, 21, 38, 0.72)),
-    url("../images/backgrounds/mountain-path-hero.jpg");
+    url("../images/home/mountain-path-hero.png");
   background-size: cover;
   background-position: center;
   color: var(--white);
