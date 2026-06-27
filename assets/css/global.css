@@ -312,7 +312,7 @@ button:hover {
 }
 
 .hero-phone-wrap {
-  width: min(290px, 72vw);
+  width: min(430px, 82vw);
   filter: drop-shadow(0 30px 40px rgba(0, 0, 0, 0.55));
 }
 
