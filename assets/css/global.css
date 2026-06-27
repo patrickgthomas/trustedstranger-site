@@ -1174,5 +1174,90 @@ textarea:focus {
     gap: 0.35rem;
   }
 }
+
+/* FIX DARK TEXT ON NAVY / DARK BACKGROUNDS */
+
+/* Logo text in header and footer */
+.site-header .brand-name,
+.site-footer .brand-name {
+  color: var(--gold);
+}
+
+.site-header .brand-subtitle,
+.site-footer .brand-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Hero eyebrow text */
+.hero .eyebrow,
+.hero-center .eyebrow {
+  color: var(--gold);
+}
+
+/* Hero resource cards */
+.hero-resource-cards .mini-resource-card h3,
+.hero-resource-cards .mini-resource-card p {
+  color: var(--white);
+}
+
+.hero-resource-cards .mini-icon {
+  color: var(--gold);
+}
+
+/* Benefits strip headings */
+.benefits-strip .benefit-item h3 {
+  color: var(--gold);
+}
+
+.benefits-strip .benefit-item p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.benefits-strip .benefit-icon {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+/* Why Gide dark card */
+.why-faq-section .why-card h2 {
+  color: var(--gold);
+}
+
+.why-faq-section .why-card p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.why-faq-section .section-icon {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+/* Final CTA dark background */
+.final-cta .eyebrow {
+  color: var(--gold);
+}
+
+.final-cta h2 {
+  color: var(--gold);
+}
+
+.final-cta p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Footer column headings */
+.site-footer .footer-column h3 {
+  color: var(--gold);
+}
+
+/* Footer links and body text stay readable */
+.site-footer p,
+.site-footer a {
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.site-footer a:hover {
+  color: var(--gold);
+}
 ```
 
