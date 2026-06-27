@@ -206,8 +206,8 @@ button:hover {
 }
 
 .brand-logo {
-  width: 48px;
-  height: 48px;
+  width: 58px;
+  height: 58px;
   object-fit: contain;
   border-radius: 14px;
 }
@@ -220,7 +220,7 @@ button:hover {
 
 .brand-name {
   font-family: "Playfair Display", Georgia, serif;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 800;
   color: var(--gold);
   letter-spacing: -0.05em;
@@ -259,6 +259,7 @@ button:hover {
 .hero {
   min-height: 760px;
   padding: 7rem 1.5rem 2rem;
+  padding-bottom: 8rem;
   position: relative;
   display: grid;
   grid-template-columns: 0.9fr 0.85fr 1.1fr;
@@ -280,7 +281,7 @@ button:hover {
     url("../images/backgrounds/mountain-path-hero.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.28;
+  opacity: 0.45;
   pointer-events: none;
 }
 
@@ -326,7 +327,7 @@ button:hover {
 }
 
 .hero-app-copy h2 {
-  color: var(--white);
+  color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: clamp(1.5rem, 2.4vw, 2rem);
   letter-spacing: -0.04em;
@@ -334,7 +335,7 @@ button:hover {
 }
 
 .hero-app-copy p {
-  color: rgba(255, 255, 255, 0.84);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .blue-eyebrow {
@@ -379,7 +380,7 @@ button:hover {
 }
 
 .hero-book {
-  width: clamp(95px, 9vw, 142px);
+  width: clamp(120px, 10vw, 165px);
   border-radius: 6px;
   box-shadow: 0 24px 40px rgba(31, 51, 70, 0.25);
 }
@@ -441,7 +442,7 @@ button:hover {
 
 .benefits-strip {
   max-width: var(--max-width);
-  margin: -4.25rem auto 0;
+  margin: -3rem auto 0;
   position: relative;
   z-index: 5;
   background: linear-gradient(180deg, #102844, #081b31);
@@ -503,7 +504,7 @@ button:hover {
 /* APP SECTION */
 
 .app-section {
-  padding-top: clamp(4rem, 7vw, 6rem);
+  padding-top: 4rem;
 }
 
 .app-grid {
