@@ -1,4 +1,3 @@
-```css
 :root {
   --navy: #294157;
   --deep-navy: #071526;
@@ -150,10 +149,12 @@ button:hover {
   box-shadow: 0 12px 26px rgba(214, 168, 63, 0.28);
 }
 
-.button-blue {
+.button-blue,
+.header-button,
+.hero-book-copy .button {
   color: var(--white);
   background: linear-gradient(180deg, #276fc6, #174f95);
-  box-shadow: 0 12px 26px rgba(29, 95, 174, 0.28);
+  box-shadow: 0 12px 26px rgba(29, 95, 174, 0.32);
 }
 
 .text-link {
@@ -228,7 +229,7 @@ button:hover {
 
 .brand-subtitle {
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--white);
 }
 
 .main-nav ul {
@@ -259,7 +260,6 @@ button:hover {
 .hero {
   min-height: 880px;
   padding: 7rem 1.5rem 8rem;
-  padding-bottom: 8rem;
   position: relative;
   display: grid;
   grid-template-columns: 0.9fr 0.85fr 1.1fr;
@@ -292,7 +292,12 @@ button:hover {
   bottom: 0;
   left: 49.5%;
   width: 170px;
-  background: linear-gradient(95deg, rgba(7, 21, 38, 0.78), rgba(7, 21, 38, 0.35), rgba(255, 250, 240, 0));
+  background: linear-gradient(
+    95deg,
+    rgba(7, 21, 38, 0.78),
+    rgba(7, 21, 38, 0.35),
+    rgba(255, 250, 240, 0)
+  );
   transform: skewX(-7deg);
   transform-origin: top;
   pointer-events: none;
@@ -326,8 +331,13 @@ button:hover {
   text-align: left;
 }
 
+.hero-app-copy .eyebrow,
+.blue-eyebrow {
+  color: var(--gold);
+}
+
 .hero-app-copy h2 {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Inter", sans-serif;
   font-size: clamp(1.5rem, 2.4vw, 2rem);
   letter-spacing: -0.04em;
@@ -336,10 +346,6 @@ button:hover {
 
 .hero-app-copy p {
   color: rgba(255, 255, 255, 0.86);
-}
-
-.blue-eyebrow {
-  color: #72a9ff;
 }
 
 .hero-center {
@@ -351,11 +357,11 @@ button:hover {
 
 .hero-center h1 {
   font-size: clamp(3rem, 5vw, 5rem);
-  color: #ffffff;
+  color: var(--white);
 }
 
 .hero-center h1 span {
-  color: var(--gold);
+  color: var(--white);
 }
 
 .hero-summary {
@@ -406,13 +412,13 @@ button:hover {
 }
 
 .mini-resource-card h3 {
-  color: var(--white);
+  color: var(--gold);
   font-size: 0.9rem;
   margin: 0 0 0.15rem;
 }
 
 .mini-resource-card p {
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--white);
   font-size: 0.75rem;
   line-height: 1.35;
   margin: 0;
@@ -427,16 +433,23 @@ button:hover {
   text-align: center;
 }
 
+.hero-book-copy .eyebrow {
+  color: var(--white);
+}
+
 .hero-book-copy h2 {
+  color: var(--white);
   font-family: "Inter", sans-serif;
   letter-spacing: -0.04em;
   font-size: 1.35rem;
   margin-bottom: 0.25rem;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 .hero-book-copy p {
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 1rem;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 
 /* BENEFITS STRIP */
@@ -456,7 +469,7 @@ button:hover {
 
 .strip-eyebrow {
   text-align: center;
-  color: rgba(255, 255, 255, 0.78);
+  color: var(--gold);
   margin-bottom: 1rem;
 }
 
@@ -484,19 +497,19 @@ button:hover {
   justify-content: center;
   margin-bottom: 0.65rem;
   color: var(--gold);
-  border: 2px solid rgba(214, 168, 63, 0.7);
+  border: 2px solid var(--gold);
   border-radius: 50%;
   font-weight: 900;
 }
 
 .benefit-item h3 {
-  color: var(--gold-light);
+  color: var(--gold);
   font-size: 0.92rem;
   margin-bottom: 0.25rem;
 }
 
 .benefit-item p {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 0.82rem;
   line-height: 1.4;
   margin: 0;
@@ -514,20 +527,14 @@ button:hover {
   gap: 1.1rem;
 }
 
+.app-card,
 .resource-card,
 .article-card,
 .book-card,
 .faq-card {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: 0 12px 30px rgba(31, 51, 70, 0.08);
-}
-
-.app-card {
   background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
   border-radius: 18px;
-  padding: 1.5rem;
   box-shadow: 0 18px 45px rgba(31, 51, 70, 0.09);
 }
 
@@ -554,12 +561,12 @@ button:hover {
   box-shadow: 0 14px 26px rgba(31, 51, 70, 0.16);
 }
 
-.calm-card .app-icon {
-  background: linear-gradient(135deg, #7037d6, #9b78ff);
-}
-
 .guard-card .app-icon {
   background: linear-gradient(135deg, #1263b8, #49a1ff);
+}
+
+.calm-card .app-icon {
+  background: linear-gradient(135deg, #7037d6, #9b78ff);
 }
 
 .faith-card .app-icon {
@@ -630,7 +637,6 @@ button:hover {
   grid-template-columns: 42% 1fr;
   gap: 1rem;
   align-items: center;
-  background: rgba(255, 255, 255, 0.9);
 }
 
 .book-cover {
@@ -711,9 +717,7 @@ button:hover {
 }
 
 .article-card {
-  border-radius: 18px;
   overflow: hidden;
-  background: var(--white);
 }
 
 .article-image {
@@ -746,7 +750,7 @@ button:hover {
 }
 
 .article-meta {
-  font-size: 0.78rem !important;
+  font-size: 0.78rem;
   margin-bottom: 0;
 }
 
@@ -773,12 +777,12 @@ button:hover {
 }
 
 .why-card h2 {
-  color: #ffffff;
+  color: var(--gold);
 }
 
 .why-card p {
   max-width: 560px;
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .section-icon {
@@ -846,19 +850,19 @@ details p {
   gap: 2rem;
 }
 
+.final-cta .eyebrow {
+  color: var(--gold);
+}
+
 .final-cta h2 {
-  color: #ffffff;
+  color: var(--gold);
   font-size: clamp(2rem, 3.4vw, 3rem);
   margin-bottom: 0.6rem;
 }
 
-.final-cta .eyebrow {
-  color: var(--gold-light);
-}
-
 .final-cta p {
   max-width: 760px;
-  color: var(--white);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* FOOTER */
@@ -880,7 +884,7 @@ details p {
 
 .footer-brand p,
 .footer-column p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 0.9rem;
 }
 
@@ -889,7 +893,7 @@ details p {
 }
 
 .footer-column h3 {
-  color: var(--white);
+  color: var(--gold);
   font-size: 0.78rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -1174,295 +1178,4 @@ textarea:focus {
     gap: 0.35rem;
   }
 }
-
-/* FIX DARK TEXT ON NAVY / DARK BACKGROUNDS */
-
-/* Logo text in header and footer */
-.site-header .brand-name,
-.site-footer .brand-name {
-  color: var(--gold);
-}
-
-.site-header .brand-subtitle,
-.site-footer .brand-subtitle {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Hero eyebrow text */
-.hero .eyebrow,
-.hero-center .eyebrow {
-  color: var(--gold);
-}
-
-/* Hero resource cards */
-.hero-resource-cards .mini-resource-card h3,
-.hero-resource-cards .mini-resource-card p {
-  color: var(--white);
-}
-
-.hero-resource-cards .mini-icon {
-  color: var(--gold);
-}
-
-/* Benefits strip headings */
-.benefits-strip .benefit-item h3 {
-  color: var(--gold);
-}
-
-.benefits-strip .benefit-item p {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.benefits-strip .benefit-icon {
-  color: var(--gold);
-  border-color: var(--gold);
-}
-
-/* Why Gide dark card */
-.why-faq-section .why-card h2 {
-  color: var(--gold);
-}
-
-.why-faq-section .why-card p {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.why-faq-section .section-icon {
-  color: var(--gold);
-  border-color: var(--gold);
-}
-
-/* Final CTA dark background */
-.final-cta .eyebrow {
-  color: var(--gold);
-}
-
-.final-cta h2 {
-  color: var(--gold);
-}
-
-.final-cta p {
-  color: rgba(255, 255, 255, 0.9);
-}
-
-/* Footer column headings */
-.site-footer .footer-column h3 {
-  color: var(--gold);
-}
-
-/* Footer links and body text stay readable */
-.site-footer p,
-.site-footer a {
-  color: rgba(255, 255, 255, 0.86);
-}
-
-.site-footer a:hover {
-  color: var(--gold);
-}
-
-```css
-/* FORCE GOLD TEXT ON DARK / NAVY AREAS */
-
-.site-header .brand-name,
-.site-footer .brand-name,
-.hero .eyebrow,
-.hero-center .eyebrow,
-.benefits-strip .strip-eyebrow,
-.benefits-strip .benefit-item h3,
-.why-faq-section .why-card h2,
-.final-cta .eyebrow,
-.final-cta h2,
-.site-footer .footer-column h3 {
-  color: #d6a83f !important;
-}
-
-/* Keep supporting text readable on dark backgrounds */
-
-.site-header .brand-subtitle,
-.site-footer .brand-subtitle,
-.benefits-strip .benefit-item p,
-.why-faq-section .why-card p,
-.final-cta p,
-.site-footer p,
-.site-footer a {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
-/* Resource cards in the hero */
-
-.hero-resource-cards .mini-resource-card h3 {
-  color: #d6a83f !important;
-}
-
-.hero-resource-cards .mini-resource-card p {
-  color: rgba(255, 255, 255, 0.88) !important;
-}
-
-.hero-resource-cards .mini-icon {
-  color: #d6a83f !important;
-}
-
-/* Benefits icons */
-
-.benefits-strip .benefit-icon {
-  color: #d6a83f !important;
-  border-color: #d6a83f !important;
-}
-
-/* Why Gide icon */
-
-.why-faq-section .section-icon {
-  color: #d6a83f !important;
-  border-color: #d6a83f !important;
-}
-
-```css
-/* FINAL DARK-BACKGROUND TEXT OVERRIDES */
-
-/* Header brand text */
-.site-header .brand .brand-text .brand-name,
-.site-footer .brand .brand-text .brand-name {
-  color: #d6a83f !important;
-}
-
-.site-header .brand .brand-text .brand-subtitle,
-.site-footer .brand .brand-text .brand-subtitle {
-  color: #ffffff !important;
-}
-
-/* Hero center eyebrow */
-.hero .hero-center > .eyebrow {
-  color: #d6a83f !important;
-}
-
-/* Hero book section label and heading */
-.hero .hero-right .hero-book-copy .eyebrow {
-  color: #d6a83f !important;
-}
-
-.hero .hero-right .hero-book-copy h2 {
-  color: #d6a83f !important;
-}
-
-.hero .hero-right .hero-book-copy p {
-  color: #ffffff !important;
-}
-
-/* Benefits strip */
-.benefits-strip .strip-eyebrow {
-  color: #d6a83f !important;
-}
-
-.benefits-strip .benefit-item h3 {
-  color: #d6a83f !important;
-}
-
-.benefits-strip .benefit-item p {
-  color: #ffffff !important;
-}
-
-.benefits-strip .benefit-icon {
-  color: #d6a83f !important;
-  border-color: #d6a83f !important;
-}
-
-/* Why Gide card */
-.why-faq-section .why-card h2 {
-  color: #d6a83f !important;
-}
-
-.why-faq-section .why-card p {
-  color: #ffffff !important;
-}
-
-/* Final CTA */
-.final-cta .eyebrow {
-  color: #d6a83f !important;
-}
-
-.final-cta h2 {
-  color: #d6a83f !important;
-}
-
-.final-cta p {
-  color: #ffffff !important;
-}
-
-/* Footer headings */
-.site-footer .footer-column h3,
-.site-footer .footer-connect h3 {
-  color: #d6a83f !important;
-}
-
-.site-footer p,
-.site-footer a {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
-/* FINAL COLOR CLEANUP */
-
-/* Top and footer Gide wordmark text */
-.site-header .brand-name,
-.site-header .brand .brand-name,
-.site-footer .brand-name,
-.site-footer .brand .brand-name {
-  color: var(--gold) !important;
-}
-
-.site-header .brand-subtitle,
-.site-header .brand .brand-subtitle,
-.site-footer .brand-subtitle,
-.site-footer .brand .brand-subtitle {
-  color: #ffffff !important;
-}
-
-/* The Gide App Family label */
-.hero-app-copy .eyebrow,
-.hero-app-copy .blue-eyebrow,
-.hero-left .blue-eyebrow {
-  color: var(--gold) !important;
-}
-
-/* Right-side AI book text in hero: make it white instead of gold */
-.hero-book-copy .eyebrow,
-.hero-right .hero-book-copy .eyebrow {
-  color: #ffffff !important;
-}
-
-.hero-book-copy h2,
-.hero-right .hero-book-copy h2 {
-  color: #ffffff !important;
-  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
-}
-
-.hero-book-copy p,
-.hero-right .hero-book-copy p {
-  color: rgba(255, 255, 255, 0.92) !important;
-  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
-}
-
-/* Make Explore Gide and Browse the Series blue */
-.header-button,
-.hero-book-copy .button,
-.hero-book-copy .button-gold,
-.hero-right .button-gold {
-  color: #ffffff !important;
-  background: linear-gradient(180deg, #276fc6, #174f95) !important;
-  box-shadow: 0 12px 26px rgba(29, 95, 174, 0.32) !important;
-}
-
-/* Keep hero resource card titles gold but body white */
-.hero-resource-cards .mini-resource-card h3 {
-  color: var(--gold) !important;
-}
-
-.hero-resource-cards .mini-resource-card p {
-  color: #ffffff !important;
-}
-
-/* Footer brand paragraph stays white */
-.site-footer .footer-brand p {
-  color: rgba(255, 255, 255, 0.9) !important;
-}
-
 
