@@ -152,9 +152,9 @@ button:hover {
 .button-blue,
 .header-button,
 .hero-book-copy .button {
-  color: var(--white);
-  background: linear-gradient(180deg, #276fc6, #174f95);
-  box-shadow: 0 12px 26px rgba(29, 95, 174, 0.32);
+  color: #111827;
+  background: linear-gradient(180deg, var(--gold-light), var(--gold));
+  box-shadow: 0 12px 26px rgba(214, 168, 63, 0.28);
 }
 
 .text-link {
