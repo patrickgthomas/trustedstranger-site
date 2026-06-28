@@ -1217,7 +1217,7 @@ textarea:focus {
 .about-hero h1 {
   max-width: 980px;
   margin: 0 auto 1.25rem;
-  font-size: clamp(2.75rem, 5vw, 5.25rem);
+  font-size: clamp(3.5rem, 6vw, 5.75rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
 }
@@ -1451,7 +1451,7 @@ textarea:focus {
 
 .contact-hero h1 {
   margin-bottom: 1rem;
-  font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(3.5rem, 6vw, 5.75rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
 }
@@ -1553,7 +1553,7 @@ textarea:focus {
 
 .legal-hero h1 {
   margin-bottom: 1rem;
-  font-size: clamp(3rem, 5vw, 5.25rem);
+  font-size: clamp(3.5rem, 6vw, 5.75rem);
   line-height: 0.95;
   letter-spacing: -0.05em;
 }
@@ -1612,4 +1612,12 @@ textarea:focus {
   .legal-card {
     padding: 1.5rem;
   }
+}
+
+/* GOLD INNER PAGE EYEBROWS */
+
+.inner-page .legal-hero .eyebrow,
+.inner-page .contact-hero .eyebrow,
+.inner-page .about-hero .eyebrow {
+  color: var(--gold) !important;
 }
