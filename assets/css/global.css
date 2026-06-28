@@ -540,6 +540,7 @@ button:hover {
 
 .app-card {
   padding: 1.4rem;
+  min-height: 260px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -631,10 +632,10 @@ button:hover {
 
 .book-card {
   position: relative;
-  min-height: 230px;
+  min-height: 250px;
   padding: 1rem;
   display: grid;
-  grid-template-columns: 42% 1fr;
+  grid-template-columns: 38% 1fr;
   gap: 1rem;
   align-items: center;
 }
