@@ -1259,5 +1259,64 @@ textarea:focus {
 .site-footer a:hover {
   color: var(--gold);
 }
+
+```css
+/* FORCE GOLD TEXT ON DARK / NAVY AREAS */
+
+.site-header .brand-name,
+.site-footer .brand-name,
+.hero .eyebrow,
+.hero-center .eyebrow,
+.benefits-strip .strip-eyebrow,
+.benefits-strip .benefit-item h3,
+.why-faq-section .why-card h2,
+.final-cta .eyebrow,
+.final-cta h2,
+.site-footer .footer-column h3 {
+  color: #d6a83f !important;
+}
+
+/* Keep supporting text readable on dark backgrounds */
+
+.site-header .brand-subtitle,
+.site-footer .brand-subtitle,
+.benefits-strip .benefit-item p,
+.why-faq-section .why-card p,
+.final-cta p,
+.site-footer p,
+.site-footer a {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Resource cards in the hero */
+
+.hero-resource-cards .mini-resource-card h3 {
+  color: #d6a83f !important;
+}
+
+.hero-resource-cards .mini-resource-card p {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.hero-resource-cards .mini-icon {
+  color: #d6a83f !important;
+}
+
+/* Benefits icons */
+
+.benefits-strip .benefit-icon {
+  color: #d6a83f !important;
+  border-color: #d6a83f !important;
+}
+
+/* Why Gide icon */
+
+.why-faq-section .section-icon {
+  color: #d6a83f !important;
+  border-color: #d6a83f !important;
+}
+```
+
+
 ```
 
