@@ -1215,11 +1215,11 @@ textarea:focus {
 }
 
 .about-hero h1 {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto 1.25rem;
-  font-size: clamp(3rem, 7vw, 6.5rem);
+  font-size: clamp(2.75rem, 5vw, 5.25rem);
   line-height: 0.95;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.05em;
 }
 
 .hero-copy {
@@ -1339,5 +1339,80 @@ textarea:focus {
 
   .about-card {
     padding: 1.5rem;
+  }
+}
+/* INNER PAGES */
+
+.inner-page header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+}
+
+.inner-page .page-main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 8rem 1.5rem 4rem;
+}
+
+.inner-page .about-hero {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.inner-page .about-hero h1 {
+  max-width: 980px;
+  margin: 0 auto 1.25rem;
+  font-size: clamp(2.75rem, 5vw, 5.25rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.inner-page .hero-copy {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.inner-page .about-section {
+  padding: 3rem 0;
+}
+
+.inner-page .section-heading {
+  max-width: 760px;
+  margin: 0 auto 2rem;
+  text-align: center;
+}
+
+.inner-page .about-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.inner-page .about-card {
+  padding: 2rem;
+  border: 1px solid rgba(214, 168, 63, 0.24);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 1000px) {
+  .inner-page .about-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .inner-page .page-main {
+    padding-top: 6.5rem;
+  }
+
+  .inner-page .about-grid {
+    grid-template-columns: 1fr;
   }
 }
