@@ -281,7 +281,7 @@ button:hover {
     url("../images/home/mountain-path-hero.png");
   background-size: cover;
   background-position: center;
-  opacity: 0.52;
+  opacity: 0.26;
   pointer-events: none;
 }
 
@@ -295,7 +295,7 @@ button:hover {
   background: linear-gradient(
     95deg,
     rgba(7, 21, 38, 0.78),
-    rgba(7, 21, 38, 0.99),
+    rgba(7, 21, 38, 0.50),
     rgba(255, 250, 240, 0)
   );
   transform: skewX(-7deg);
