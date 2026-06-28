@@ -1354,7 +1354,7 @@ textarea:focus {
 .inner-page .page-main {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 8rem 1.5rem 4rem;
+  padding: 10rem 1.5rem 4rem;
 }
 
 .inner-page .about-hero {
@@ -1415,4 +1415,21 @@ textarea:focus {
   .inner-page .about-grid {
     grid-template-columns: 1fr;
   }
+}
+/* INNER PAGE HEADER CARD */
+
+.inner-page header {
+  position: absolute;
+  top: 1.25rem;
+  left: 50%;
+  width: calc(100% - 3rem);
+  max-width: 1180px;
+  transform: translateX(-50%);
+  z-index: 20;
+
+  background: rgba(8, 29, 48, 0.94);
+  border: 1px solid rgba(214, 168, 63, 0.24);
+  border-radius: 24px;
+  box-shadow: 0 18px 45px rgba(8, 29, 48, 0.25);
+  padding: 0.9rem 1.25rem;
 }
