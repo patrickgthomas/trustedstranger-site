@@ -1315,8 +1315,89 @@ textarea:focus {
   color: #d6a83f !important;
   border-color: #d6a83f !important;
 }
+
+```css
+/* FINAL DARK-BACKGROUND TEXT OVERRIDES */
+
+/* Header brand text */
+.site-header .brand .brand-text .brand-name,
+.site-footer .brand .brand-text .brand-name {
+  color: #d6a83f !important;
+}
+
+.site-header .brand .brand-text .brand-subtitle,
+.site-footer .brand .brand-text .brand-subtitle {
+  color: #ffffff !important;
+}
+
+/* Hero center eyebrow */
+.hero .hero-center > .eyebrow {
+  color: #d6a83f !important;
+}
+
+/* Hero book section label and heading */
+.hero .hero-right .hero-book-copy .eyebrow {
+  color: #d6a83f !important;
+}
+
+.hero .hero-right .hero-book-copy h2 {
+  color: #d6a83f !important;
+}
+
+.hero .hero-right .hero-book-copy p {
+  color: #ffffff !important;
+}
+
+/* Benefits strip */
+.benefits-strip .strip-eyebrow {
+  color: #d6a83f !important;
+}
+
+.benefits-strip .benefit-item h3 {
+  color: #d6a83f !important;
+}
+
+.benefits-strip .benefit-item p {
+  color: #ffffff !important;
+}
+
+.benefits-strip .benefit-icon {
+  color: #d6a83f !important;
+  border-color: #d6a83f !important;
+}
+
+/* Why Gide card */
+.why-faq-section .why-card h2 {
+  color: #d6a83f !important;
+}
+
+.why-faq-section .why-card p {
+  color: #ffffff !important;
+}
+
+/* Final CTA */
+.final-cta .eyebrow {
+  color: #d6a83f !important;
+}
+
+.final-cta h2 {
+  color: #d6a83f !important;
+}
+
+.final-cta p {
+  color: #ffffff !important;
+}
+
+/* Footer headings */
+.site-footer .footer-column h3,
+.site-footer .footer-connect h3 {
+  color: #d6a83f !important;
+}
+
+.site-footer p,
+.site-footer a {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
 ```
 
-
-```
 
