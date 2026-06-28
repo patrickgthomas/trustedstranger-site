@@ -1434,3 +1434,105 @@ textarea:focus {
   box-shadow: 0 18px 45px rgba(8, 29, 48, 0.25);
   padding: 0.9rem 1.25rem;
 }
+
+/* CONTACT PAGE */
+
+.contact-main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 7.5rem 1.5rem 5rem;
+}
+
+.contact-hero {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  margin-bottom: 1rem;
+  font-size: clamp(3rem, 5vw, 5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.contact-hero p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.contact-card {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border: 1px solid rgba(214, 168, 63, 0.24);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: var(--shadow);
+}
+
+.contact-card form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.contact-card label {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--deep-navy);
+  font-weight: 800;
+  text-align: left;
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: 1px solid rgba(31, 51, 70, 0.16);
+  border-radius: 14px;
+  background: #ffffff;
+  color: var(--text);
+  font: inherit;
+}
+
+.contact-card textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-card input:focus,
+.contact-card textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 4px rgba(214, 168, 63, 0.16);
+}
+
+.contact-card button,
+.contact-card .button {
+  justify-self: center;
+  margin-top: 0.5rem;
+  padding: 0.95rem 1.4rem;
+  border: none;
+  border-radius: 14px;
+  background: var(--gold);
+  color: var(--deep-navy);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 12px 24px rgba(214, 168, 63, 0.24);
+}
+
+.contact-card button:hover,
+.contact-card .button:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 640px) {
+  .contact-main {
+    padding-top: 6.5rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+  }
+}
