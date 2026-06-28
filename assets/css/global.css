@@ -1625,6 +1625,10 @@ textarea:focus {
 
 .inner-page .legal-hero .eyebrow,
 .inner-page .contact-hero .eyebrow,
+.inner-page .disclaimer-hero .eyebrow,
+.inner-page .terms-hero .eyebrow,
+.inner-page .support-hero .eyebrow,
+.inner-page .privacy-hero .eybrow,
 .inner-page .about-hero .eyebrow {
   color: var(--gold) !important;
 }
