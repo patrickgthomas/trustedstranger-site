@@ -1398,6 +1398,71 @@ textarea:focus {
 .site-footer a {
   color: rgba(255, 255, 255, 0.9) !important;
 }
-```
+
+/* FINAL COLOR CLEANUP */
+
+/* Top and footer Gide wordmark text */
+.site-header .brand-name,
+.site-header .brand .brand-name,
+.site-footer .brand-name,
+.site-footer .brand .brand-name {
+  color: var(--gold) !important;
+}
+
+.site-header .brand-subtitle,
+.site-header .brand .brand-subtitle,
+.site-footer .brand-subtitle,
+.site-footer .brand .brand-subtitle {
+  color: #ffffff !important;
+}
+
+/* The Gide App Family label */
+.hero-app-copy .eyebrow,
+.hero-app-copy .blue-eyebrow,
+.hero-left .blue-eyebrow {
+  color: var(--gold) !important;
+}
+
+/* Right-side AI book text in hero: make it white instead of gold */
+.hero-book-copy .eyebrow,
+.hero-right .hero-book-copy .eyebrow {
+  color: #ffffff !important;
+}
+
+.hero-book-copy h2,
+.hero-right .hero-book-copy h2 {
+  color: #ffffff !important;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+.hero-book-copy p,
+.hero-right .hero-book-copy p {
+  color: rgba(255, 255, 255, 0.92) !important;
+  text-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* Make Explore Gide and Browse the Series blue */
+.header-button,
+.hero-book-copy .button,
+.hero-book-copy .button-gold,
+.hero-right .button-gold {
+  color: #ffffff !important;
+  background: linear-gradient(180deg, #276fc6, #174f95) !important;
+  box-shadow: 0 12px 26px rgba(29, 95, 174, 0.32) !important;
+}
+
+/* Keep hero resource card titles gold but body white */
+.hero-resource-cards .mini-resource-card h3 {
+  color: var(--gold) !important;
+}
+
+.hero-resource-cards .mini-resource-card p {
+  color: #ffffff !important;
+}
+
+/* Footer brand paragraph stays white */
+.site-footer .footer-brand p {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
 
 
