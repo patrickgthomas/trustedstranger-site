@@ -240,7 +240,7 @@ button:hover {
 }
 
 .main-nav a {
-  color: rgba(255, 255, 255, 0.92);
+  color: var(--gold);
   font-size: 0.95rem;
   font-weight: 700;
   text-decoration: none;
