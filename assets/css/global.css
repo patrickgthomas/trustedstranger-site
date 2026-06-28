@@ -295,7 +295,7 @@ button:hover {
   background: linear-gradient(
     95deg,
     rgba(7, 21, 38, 0.78),
-    rgba(7, 21, 38, 0.70),
+    rgba(7, 21, 38, 0.99),
     rgba(255, 250, 240, 0)
   );
   transform: skewX(-7deg);
