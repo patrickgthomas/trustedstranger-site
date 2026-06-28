@@ -598,7 +598,7 @@ button:hover {
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 0.8fr 2fr;
+  grid-template-columns: 0.75fr 2fr;
   gap: 2rem;
   align-items: center;
 }
@@ -626,41 +626,59 @@ button:hover {
 
 .book-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
 }
 
 .book-card {
   position: relative;
-  min-height: 250px;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: 38% 1fr;
-  gap: 1rem;
-  align-items: center;
+  min-height: 420px;
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 18px 45px rgba(31, 51, 70, 0.09);
 }
 
 .book-cover {
   width: 100%;
-  max-width: 140px;
-  border-radius: 6px;
+  max-width: 150px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 7px;
   box-shadow: 0 20px 35px rgba(31, 51, 70, 0.22);
+  margin-bottom: 1.25rem;;
+}
+
+.book-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
 }
 
 .book-content h3 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
+  line-height: 1.15;
+  margin-bottom: 0.6rem;
 }
 
 .book-content p {
   color: var(--muted);
-  font-size: 0.88rem;
-  line-height: 1.45;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.book-content .text-link {
+  margin-top: auto;
 }
 
 .coming-soon-badge {
   position: static;
-  justify-self: start;
-  align-self: start;
   width: fit-content;
   background: linear-gradient(180deg, var(--gold-light), var(--gold));
   color: #111827;
