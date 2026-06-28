@@ -1354,11 +1354,12 @@ textarea:focus {
 .inner-page .page-main {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 10rem 1.5rem 4rem;
+  padding: 7.5rem 1.5rem 4rem;
 }
 
 .inner-page .about-hero {
-  padding-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
@@ -1420,7 +1421,7 @@ textarea:focus {
 
 .inner-page header {
   position: absolute;
-  top: 1.25rem;
+  top: 1rem;
   left: 50%;
   width: calc(100% - 3rem);
   max-width: 1180px;
