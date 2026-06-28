@@ -541,10 +541,20 @@
         <h3>Stay Connected</h3>
         <p>Get tips, updates, and new releases from Gide.</p>
 
-        <form class="footer-form" action="#" method="post">
+        <form class="footer-form" action="https://formspree.io/f/xnjkveje" method="POST">
+          <input type="hidden" name="_subject" value="New Gide Email Signup">
+        
           <label for="footer-email" class="sr-only">Email address</label>
-          <input id="footer-email" type="email" name="email" placeholder="Enter your email">
-          <button type="submit" aria-label="Subscribe">→</button>
+        
+          <input
+            id="footer-email"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          >
+        
+          <button type="submit" aria-label="Subscribe">↗</button>
         </form>
 
         <p>
