@@ -168,7 +168,7 @@ button:hover {
 }
 
 .text-link::after {
-  content: "→";
+  content: "?";
   transition: transform 0.2s ease;
 }
 
@@ -523,7 +523,7 @@ button:hover {
 
 .app-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 1.1rem;
 }
 
@@ -576,6 +576,35 @@ button:hover {
 
 .stride-card .app-icon {
   background: linear-gradient(135deg, #007b7a, #47b9a8);
+}
+
+.legacy-card .app-icon {
+  background: linear-gradient(135deg, #43345f, #9472bb);
+}
+
+.app-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.app-status {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: #e9f7ef;
+  color: #176b3a;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.app-status.pending {
+  background: #fff2c9;
+  color: #725400;
 }
 
 .app-card p {
@@ -1309,6 +1338,13 @@ textarea:focus {
   background: rgba(214, 168, 63, 0.12);
   border: 1px solid rgba(214, 168, 63, 0.3);
   font-size: 1.35rem;
+}
+
+.about-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 999px;
 }
 
 .about-contact {
