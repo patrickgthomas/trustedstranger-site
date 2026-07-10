@@ -1792,3 +1792,52 @@ textarea:focus {
     padding: 1.5rem;
   }
 }
+
+/* STANDARD PAGE HEADERS */
+.standard-header {
+  position: sticky;
+  top: 0;
+  left: auto;
+  width: 100%;
+  z-index: 30;
+  padding: 0.95rem 1.5rem;
+  box-shadow: 0 12px 28px rgba(7, 21, 38, 0.16);
+}
+.standard-header .brand-name { font-size: 1.65rem; }
+.standard-header .brand-subtitle { font-weight: 700; }
+.standard-header.navy-header { background: var(--deep-navy); }
+.standard-header.book-header { background: #050505; }
+.standard-header.book-header .brand-name,
+.standard-header.book-header .main-nav a { color: #f1c96a; }
+.standard-header.app-header { background: var(--deep-navy); }
+.standard-header.guard-header { background: #00167a; }
+.standard-header.calm-header { background: #03424d; }
+.standard-header.faith-header { background: #590438; }
+.standard-header.stride-header { background: #17341d; }
+.standard-header.legacy-header { background: #2d2338; }
+.standard-header.guard-header .brand-name,
+.standard-header.guard-header .main-nav a,
+.standard-header.calm-header .brand-name,
+.standard-header.calm-header .main-nav a,
+.standard-header.faith-header .brand-name,
+.standard-header.faith-header .main-nav a,
+.standard-header.stride-header .brand-name,
+.standard-header.stride-header .main-nav a,
+.standard-header.legacy-header .brand-name,
+.standard-header.legacy-header .main-nav a { color: var(--gold); }
+.standard-header.guard-header .brand-subtitle,
+.standard-header.calm-header .brand-subtitle,
+.standard-header.faith-header .brand-subtitle,
+.standard-header.stride-header .brand-subtitle,
+.standard-header.legacy-header .brand-subtitle { color: rgba(255,255,255,.92); }
+.standard-header .header-button { border: 1px solid rgba(255,255,255,.14); }
+.main-page .content-hero,
+.book-page .content-hero,
+.app-page .content-hero { padding-top: 6rem; }
+@media (max-width: 900px) {
+  .standard-header .main-nav { display: none; }
+}
+@media (max-width: 620px) {
+  .standard-header { padding: 0.8rem 1rem; }
+  .standard-header .brand-name { font-size: 1.35rem; }
+}
