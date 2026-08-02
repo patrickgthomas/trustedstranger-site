@@ -49,7 +49,7 @@
 
   <section class="legal-card">
 
-    <p class="legal-updated"><strong>Last Updated:</strong> July 2026</p>
+    <p class="legal-updated"><strong>Last Updated:</strong> August 2, 2026</p>
 
     <h2>Introduction</h2>
 
@@ -203,7 +203,10 @@
       stories, photos, video, audio, and documents &mdash; are stored on your
       device and, if you choose to connect it, in your own Google Drive account.
       Trusted Stranger does not host, store, or have access to the contents of
-      your memories on our servers. Your vault is encrypted on your device.
+      your memories on our servers. The local vault is stored inside the
+      application&rsquo;s private storage and protected by your phone&rsquo;s
+      operating-system security. Gide does not use a separate encryption key,
+      passphrase, or recovery phrase.
     </p>
 
     <p>
@@ -224,6 +227,10 @@
       <strong>Google Drive.</strong> If you connect Google Drive, Gide &mdash;
       Legacy accesses only the files it creates using the drive.file scope to
       store and share your memories. It cannot see the rest of your Drive.
+      Sync also stores one complete private vault backup in a Gide backup
+      folder owned by your Google account. That backup is not shared with
+      family members. Connecting the same account after reinstalling lets Gide
+      offer to restore the backup.
     </p>
 
     <p>
@@ -232,10 +239,10 @@
       name, your role, a link (URL) to the memories you publish,
       seat/membership counts, and invitation codes. We do not store your actual
       memories, photos, audio, or documents. Memories you mark as
-      &ldquo;shared&rdquo; are published to your own Google Drive with
-      &ldquo;anyone with the link&rdquo; access so that invited family members
-      can view them; do not mark as shared anything you would not want
-      accessible to someone with that link.
+      &ldquo;shared&rdquo; are published to your own Google Drive. Gide removes
+      anonymous link access and grants access only to the verified Google
+      accounts on the approved family roster. A removed family member may
+      retain a copy they previously chose to save to their own vault.
     </p>
 
     <p>
@@ -252,10 +259,24 @@
     </p>
 
     <p>
-      <strong>Deleting your data.</strong> You can remove memories in the app,
-      leave or be removed from a family, which deletes your membership record
-      from our licensing service, and uninstalling the app removes the local
-      vault from your device.
+      <strong>Deleting your data.</strong> In Gide &mdash; Legacy, open Settings,
+      then choose <em>Delete my account and local data</em>. This deletes your
+      Firebase Authentication identity, Gide membership and coordination
+      records, and the local vault on that phone. If you are the family
+      organizer, deleting the account also closes that family&rsquo;s Gide
+      service. Other members&rsquo; local and Google Drive files are not erased.
+      You may also submit a deletion request through our
+      <a href="delete-account.html">account deletion page</a>.
+    </p>
+
+    <p>
+      <strong>User-owned and retained records.</strong> Files in your own Google
+      Drive remain under your control and can be deleted from Google Drive.
+      Account deletion removes Gide's RevenueCat customer record. Google Play
+      may retain transaction records required for purchases, refunds,
+      accounting, fraud prevention, and legal compliance. Uninstalling the app
+      removes its local vault unless you have a Google Drive or exported ZIP
+      backup.
     </p>
 
     <p>
