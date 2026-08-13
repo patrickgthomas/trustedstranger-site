@@ -24,6 +24,7 @@ Use these as the canonical public destinations for the Gide apps:
 - Gide Faith: `https://faith.trustedstranger.app/`
 - Gide Stride: `https://stride.trustedstranger.app/`
 - Gide Legacy: `https://legacy.trustedstranger.app/`
+- Gide Roots: use `https://trustedstranger.app/apps/roots/` until `roots.trustedstranger.app` DNS and hosting are verified
 
 Do not switch live links to a subdomain until its DNS and hosting are configured and the page has been verified. Until then, the corresponding `/apps/` page may remain as the working fallback.
 
@@ -34,4 +35,5 @@ Do not switch live links to a subdomain until its DNS and hosting are configured
 - Gide Faith: available on the App Store.
 - Gide Stride: in App Store review and testing.
 - Gide Legacy: in development.
+- Gide Roots: coming soon to Android and iOS.
 
