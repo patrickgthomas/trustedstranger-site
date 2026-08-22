@@ -70,41 +70,23 @@ function renderLegalLinks() {
 
 const logo = (slug) => `/assets/images/logos/G-${slug}-128.png`;
 
-// Full card for the apps people can download today.
-function renderAppCards(statuses) {
+// One card per app. Nothing here ranks the apps or comments on their stage.
+function renderAppCards() {
   return site.apps
-    .filter((app) => statuses.includes(app.status))
     .map((app) => {
-      const store = app.store
-        ? `<a class="btn btn-gold btn-sm" href="${app.store}">Get the app</a>`
-        : '';
+      const buttons = app.store
+        ? `<a class="btn btn-gold btn-sm" href="${app.store}">Get the app</a>
+              <a class="btn btn-outline btn-sm" href="${app.url}">Learn more</a>`
+        : `<a class="btn btn-gold btn-sm" href="${app.url}">Learn more</a>`;
       return `<article class="card app-card" data-app="${app.slug}">
             <img class="card-icon" src="${logo(app.slug)}" alt="" width="52" height="52" loading="lazy">
-            <span class="pill pill-${app.status}">${app.statusLabel}</span>
             <h3>${app.name}</h3>
             <p>${app.summary}</p>
             <div class="btn-row">
-              ${store}
-              <a class="btn btn-outline btn-sm" href="${app.url}">Learn more</a>
+              ${buttons}
             </div>
           </article>`;
     })
-    .join('\n          ');
-}
-
-// Quieter row for what is still on the way.
-function renderAppCardsQuiet(statuses) {
-  return site.apps
-    .filter((app) => statuses.includes(app.status))
-    .map(
-      (app) => `<a class="card app-card-quiet" data-app="${app.slug}" href="${app.url}">
-            <img class="card-icon" src="${logo(app.slug)}" alt="" width="40" height="40" loading="lazy">
-            <div>
-              <h3>${app.name}</h3>
-              <p>${app.tagline} <span class="muted">&middot; ${app.statusLabel}</span></p>
-            </div>
-          </a>`
-    )
     .join('\n          ');
 }
 
@@ -161,9 +143,7 @@ function renderPage(meta, body) {
     content: fill(body, {
       site,
       year,
-      appCards: renderAppCards(['available']),
-      appCardsAll: renderAppCards(['available', 'review', 'development', 'soon']),
-      appCardsQuiet: renderAppCardsQuiet(['review', 'development', 'soon']),
+      appCards: renderAppCards(),
       bookCards: renderBookCards(),
       bookCardsFeatured: renderBookCards(3),
       episodes: renderEpisodes(),

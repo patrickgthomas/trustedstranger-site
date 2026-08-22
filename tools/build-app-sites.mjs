@@ -279,7 +279,6 @@ function renderPage(app, palette) {
 
   <section class="hero app-hero">
     <div class="wrap">
-      <span class="pill pill-${app.status}">${esc(app.statusLabel)}</span>
       <h1>${esc(app.headline)}</h1>
       <p class="lede">${esc(app.lede)}</p>
       <div class="btn-row">

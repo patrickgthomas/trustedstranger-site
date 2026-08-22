@@ -5,8 +5,6 @@
   "url": "https://legacy.gidehub.com/",
   "store": "https://play.google.com/store/apps/details?id=com.gidelegacy.app",
   "storeLabel": "Get Gide Legacy for Android",
-  "status": "development",
-  "statusLabel": "In development",
   "headline": "Every story belongs somewhere safe.",
   "lede": "Gide Legacy helps your family preserve voices, photos, stories, and relationships in a private archive your family controls.",
   "heroNote": "Joining an existing family is free. Only the organizer purchases the family license.",
@@ -34,9 +32,18 @@
     "eyebrow": "Simple from the first tap",
     "heading": "Join your family in three easy steps.",
     "items": [
-      { "title": "Open your invitation", "body": "Tap the private link sent by your family organizer." },
-      { "title": "Install and sign in", "body": "Download Gide Legacy and sign in with your own Google account." },
-      { "title": "Join for free", "body": "Your invitation connects you to the family. You will not be asked to buy another license." }
+      {
+        "title": "Open your invitation",
+        "body": "Tap the private link sent by your family organizer."
+      },
+      {
+        "title": "Install and sign in",
+        "body": "Download Gide Legacy and sign in with your own Google account."
+      },
+      {
+        "title": "Join for free",
+        "body": "Your invitation connects you to the family. You will not be asked to buy another license."
+      }
     ]
   },
   "screenshots": [],
@@ -58,5 +65,8 @@
     "heading": "Preserve the people and stories that made you.",
     "body": "Start your family archive, or open the invitation someone already sent you."
   },
-  "secondaryCta": { "label": "I have an invite", "href": "/join/" }
+  "secondaryCta": {
+    "label": "I have an invite",
+    "href": "/join/"
+  }
 }

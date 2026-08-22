@@ -37,8 +37,6 @@
       "short": "Guard",
       "url": "https://guard.gidehub.com/",
       "store": "https://apps.apple.com/ng/app/gide-guard/id6779041138",
-      "status": "available",
-      "statusLabel": "On the App Store",
       "tagline": "Think clearly about safety.",
       "summary": "Helps you think through safety concerns, recognize suspicious situations, and stay aware of scams, fraud, and risk."
     },
@@ -48,8 +46,6 @@
       "short": "Calm",
       "url": "https://calm.gidehub.com/",
       "store": "https://apps.apple.com/ng/app/gide-calm/id6778231374",
-      "status": "available",
-      "statusLabel": "On the App Store",
       "tagline": "A pause when you need one.",
       "summary": "Simple calming tools, reflections, and support for stressful moments when you need to pause and reset."
     },
@@ -59,8 +55,6 @@
       "short": "Faith",
       "url": "https://faith.gidehub.com/",
       "store": "https://apps.apple.com/ng/app/gide-faith/id6782227143",
-      "status": "available",
-      "statusLabel": "On the App Store",
       "tagline": "Daily scripture and prayer.",
       "summary": "Scripture, prayer, reflection, and faith-based encouragement for daily spiritual growth."
     },
@@ -70,8 +64,6 @@
       "short": "Stride",
       "url": "https://stride.gidehub.com/",
       "store": "",
-      "status": "review",
-      "statusLabel": "In review and testing",
       "tagline": "Turn steps into progress.",
       "summary": "Encourages movement, progress, and personal growth by turning steps and goals into visible progress."
     },
@@ -81,8 +73,6 @@
       "short": "Legacy",
       "url": "https://legacy.gidehub.com/",
       "store": "https://play.google.com/store/apps/details?id=com.gidelegacy.app",
-      "status": "development",
-      "statusLabel": "In development",
       "tagline": "Your family's private archive.",
       "summary": "Preserve voices, photos, stories, and relationships in a private archive your family controls."
     },
@@ -92,8 +82,6 @@
       "short": "Roots",
       "url": "https://roots.gidehub.com/",
       "store": "",
-      "status": "soon",
-      "statusLabel": "Coming soon",
       "tagline": "The family tree, kept private.",
       "summary": "Build and preserve the people, relationships, and generations that give your family story its structure."
     }

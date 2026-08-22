@@ -300,10 +300,8 @@ p + p { margin-top: var(--sp-4); }
   border-radius: 50%;
   background: currentColor;
 }
+/* Used for the "Free" marker on book cards. */
 .pill-available { background: #e7f4ec; color: #1d6b3f; }
-.pill-review { background: var(--gold-wash); color: var(--gold-text); }
-.pill-development { background: #eaf0f7; color: #34567d; }
-.pill-soon { background: var(--cream-deep); color: #6b5b3c; }
 
 /* 6. Header and navigation ------------------------------------------------- */
 

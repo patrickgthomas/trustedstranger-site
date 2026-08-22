@@ -4,8 +4,6 @@
   "name": "Gide Stride",
   "url": "https://stride.gidehub.com/",
   "store": "",
-  "status": "review",
-  "statusLabel": "In review and testing",
   "headline": "Turn your steps into a garden.",
   "lede": "Gide Stride is a calm walking game where movement becomes dewdrops, dewdrops grow flowers, and flowers fill peaceful gardens.",
   "sectionEyebrow": "A softer reason to move",
@@ -13,22 +11,22 @@
   "sectionBody": "Stride makes healthy movement feel like tending something beautiful. Instead of streak anxiety or noisy fitness charts, you collect dewdrops, plant seeds, unlock blooms, and build gardens at your own pace.",
   "features": [
     {
-      "icon": "\u2601",
+      "icon": "☁",
       "title": "Dewdrops from steps",
       "body": "Use daily movement to collect dewdrops and keep your garden growing."
     },
     {
-      "icon": "\u273f",
+      "icon": "✿",
       "title": "Flowers and gardens",
       "body": "Plant seeds, grow whimsical blooms, and place them in peaceful garden scenes."
     },
     {
-      "icon": "\u2605",
+      "icon": "★",
       "title": "Trophies and milestones",
       "body": "Unlock badges for steps, gardens, blooms, and special moments of progress."
     },
     {
-      "icon": "\u2302",
+      "icon": "⌂",
       "title": "Private by design",
       "body": "Stride is built as an offline game with progress stored locally on your device."
     }
@@ -89,10 +87,6 @@
   },
   "faq": [
     {
-      "q": "Is Gide Stride available yet?",
-      "a": "Not quite. The app is currently in review and testing. The App Store link will be added here when launch is complete."
-    },
-    {
       "q": "Does Stride require an account?",
       "a": "No. Stride is designed as an offline game and does not require an account. Game progress is stored on your device."
     },
@@ -102,7 +96,7 @@
     }
   ],
   "cta": {
-    "heading": "Gide Stride is almost ready.",
-    "body": "The app is currently in review and testing. The App Store link will be added here when launch is complete."
+    "heading": "A calmer way to keep moving.",
+    "body": "Plant a garden one walk at a time, with no streaks to break and nothing to prove."
   }
 }

@@ -32,16 +32,15 @@ Books, resources, the podcast, and the blog stay as paths on `gidehub.com` rathe
 than getting their own subdomains, so search authority stays consolidated on one
 domain.
 
-## Current availability
+## Talking about the apps
 
-- Gide Guard: available on the App Store.
-- Gide Calm: available on the App Store.
-- Gide Faith: available on the App Store.
-- Gide Stride: in App Store review and testing.
-- Gide Legacy: in development.
-- Gide Roots: coming soon to Android and iOS.
+Do not describe any app as coming soon, in development, in review, on the way, or
+otherwise unfinished. All six apps are presented as equal members of the family.
 
-Availability is stored once, in `src/data/site.json`. Update it there.
+The only thing that varies between them is whether a store link exists. Where
+`store` is set in `src/data/site.json`, the card shows a "Get the app" button and
+a "Learn more" link; where it is empty, the card shows "Learn more" alone. Adding
+a store URL to the data is all it takes to switch an app over.
 
 ## Design rules
 
