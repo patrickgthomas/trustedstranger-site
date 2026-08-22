@@ -90,7 +90,7 @@ function renderScreenshots(app) {
   return `
   <section class="section section-cream" id="screens">
     <div class="wrap">
-      <div class="section-head centered">
+      <div class="section-head centered rule-top">
         <p class="eyebrow">Inside the app</p>
         <h2>A look around.</h2>
       </div>
@@ -110,7 +110,7 @@ function renderSteps(app) {
   return `
   <section class="section section-cream">
     <div class="wrap wrap-narrow">
-      <div class="section-head">
+      <div class="section-head rule-top">
         <p class="eyebrow">${esc(app.steps.eyebrow)}</p>
         <h2>${esc(app.steps.heading)}</h2>
       </div>
@@ -133,7 +133,7 @@ function renderPrivacy(app) {
   return `
   <section class="section section-ink" id="privacy">
     <div class="wrap">
-      <div class="section-head">
+      <div class="section-head rule-top">
         <p class="eyebrow">Private by design</p>
         <h2>${esc(app.privacy.heading)}</h2>
         <p class="lede">${esc(app.privacy.body)}</p>
@@ -173,7 +173,7 @@ function renderFaq(app) {
   return `
   <section class="section" id="faq">
     <div class="wrap wrap-narrow">
-      <div class="section-head">
+      <div class="section-head rule-top">
         <p class="eyebrow">Good to know</p>
         <h2>Frequently asked questions</h2>
       </div>
@@ -291,7 +291,7 @@ function renderPage(app, palette) {
 
   <section class="section" id="features">
     <div class="wrap">
-      <div class="section-head">
+      <div class="section-head rule-top">
         <p class="eyebrow">${esc(app.sectionEyebrow || 'Features')}</p>
         <h2>${esc(app.sectionHeading || 'What it does.')}</h2>
         ${app.sectionBody ? `<p class="lede">${esc(app.sectionBody)}</p>` : ''}

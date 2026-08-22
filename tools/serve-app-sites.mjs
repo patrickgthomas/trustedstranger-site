@@ -46,7 +46,11 @@ createServer((req, res) => {
   try {
     if (statSync(file).isDirectory()) file = join(file, 'index.html');
     const buf = readFileSync(file);
-    res.writeHead(200, { 'content-type': MIME[extname(file)] || 'application/octet-stream' });
+    // Dev server only: never let the browser cache a stale build.
+    res.writeHead(200, {
+      'content-type': MIME[extname(file)] || 'application/octet-stream',
+      'cache-control': 'no-store',
+    });
     res.end(buf);
   } catch {
     res.writeHead(404, { 'content-type': 'text/plain' });

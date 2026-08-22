@@ -70,23 +70,41 @@ function renderLegalLinks() {
 
 const logo = (slug) => `/assets/images/logos/G-${slug}-128.png`;
 
-// One card per app. Nothing here ranks the apps or comments on their stage.
+// One card per app. The coloured head carries the app's own brand colour so
+// the six read as a family rather than six identical white rectangles.
 function renderAppCards() {
   return site.apps
     .map((app) => {
       const buttons = app.store
         ? `<a class="btn btn-gold btn-sm" href="${app.store}">Get the app</a>
-              <a class="btn btn-outline btn-sm" href="${app.url}">Learn more</a>`
+                <a class="btn btn-outline btn-sm" href="${app.url}">Learn more</a>`
         : `<a class="btn btn-gold btn-sm" href="${app.url}">Learn more</a>`;
       return `<article class="card app-card" data-app="${app.slug}">
-            <img class="card-icon" src="${logo(app.slug)}" alt="" width="52" height="52" loading="lazy">
-            <h3>${app.name}</h3>
-            <p>${app.summary}</p>
-            <div class="btn-row">
-              ${buttons}
+            <div class="app-card-head">
+              <img src="${logo(app.slug)}" alt="" width="56" height="56" loading="lazy">
+              <h3>${app.name}</h3>
+            </div>
+            <div class="app-card-body">
+              <p>${app.summary}</p>
+              <div class="btn-row">
+                ${buttons}
+              </div>
             </div>
           </article>`;
     })
+    .join('\n          ');
+}
+
+// Larger covers for the dark showcase band on the homepage.
+function renderBookShowcase(limit) {
+  return site.books
+    .slice(0, limit || site.books.length)
+    .map(
+      (book) => `<a href="/books/${book.slug}/">
+            <img src="${book.cover.replace('.webp', '-400.webp')}" alt="${book.title} cover" width="267" height="400" loading="lazy">
+            <span>${book.title}</span>
+          </a>`
+    )
     .join('\n          ');
 }
 
@@ -144,6 +162,7 @@ function renderPage(meta, body) {
       site,
       year,
       appCards: renderAppCards(),
+      bookShowcase: renderBookShowcase(),
       bookCards: renderBookCards(),
       bookCardsFeatured: renderBookCards(3),
       episodes: renderEpisodes(),
@@ -329,7 +348,11 @@ function serve(port = 4321) {
 
     try {
       const buf = readFileSync(file);
-      res.writeHead(200, { 'content-type': MIME[extname(file)] || 'application/octet-stream' });
+      // Dev server only: never let the browser cache a stale build.
+      res.writeHead(200, {
+        'content-type': MIME[extname(file)] || 'application/octet-stream',
+        'cache-control': 'no-store',
+      });
       res.end(buf);
     } catch {
       try {

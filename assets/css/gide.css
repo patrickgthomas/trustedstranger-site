@@ -806,3 +806,156 @@ a.card:hover, .card:has(a:hover) {
   .book-detail { grid-template-columns: 1fr; gap: var(--sp-8); }
   .book-detail-cover { position: static; max-width: 14rem; }
 }
+
+/* ==========================================================================
+   13. Visual treatment
+   The layout above is deliberately plain; this section is what gives the
+   pages something to look at. Product screenshots and each app's own brand
+   colour do the work, so nothing here is decoration for its own sake.
+   ========================================================================== */
+
+/* Split hero with product art ---------------------------------------------- */
+
+.hero-split { text-align: left; padding-block: var(--sp-20) var(--sp-16); }
+.hero-split .wrap { max-width: var(--wrap); }
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+  gap: var(--sp-16);
+  align-items: center;
+}
+.hero-split .lede { margin-inline: 0; max-width: 34rem; }
+.hero-split .btn-row { justify-content: flex-start; }
+.hero-split h1 { letter-spacing: -0.025em; }
+
+/* A fanned cluster of real screens, rather than a stock illustration. */
+.hero-art {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  gap: var(--sp-4);
+  padding-block: var(--sp-6);
+}
+.hero-art img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow-lg);
+  background: var(--white);
+}
+.hero-art img:nth-child(1) { transform: rotate(-5deg) translateY(14px); }
+.hero-art img:nth-child(2) { transform: translateY(-14px) scale(1.06); z-index: 2; }
+.hero-art img:nth-child(3) { transform: rotate(5deg) translateY(14px); }
+
+/* Gold rule under a display heading, instead of another plain block of text. */
+.rule-top { position: relative; padding-top: var(--sp-6); }
+.rule-top::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--gold);
+}
+.centered.rule-top::before { left: 50%; transform: translateX(-50%); }
+
+/* App cards carrying their own colour ------------------------------------- */
+
+.app-card {
+  padding: 0;
+  overflow: hidden;
+  border-top: 0;
+  gap: 0;
+}
+
+/* The coloured band is the app's identity, so it gets real estate rather
+   than a hairline. --accent comes from the [data-app] rules above. */
+.app-card-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  padding: var(--sp-6);
+  min-height: 104px;
+  background:
+    radial-gradient(18rem 10rem at 85% -30%, rgba(255, 255, 255, 0.28), transparent 70%),
+    linear-gradient(135deg, var(--accent) 0%, color-mix(in srgb, var(--accent) 72%, #000) 100%);
+}
+.app-card-head img {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 4px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+}
+.app-card-head h3 {
+  color: #fff;
+  font-size: var(--fs-xl);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.28);
+}
+
+.app-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+  padding: var(--sp-6);
+  flex: 1;
+}
+.app-card-body .btn-row { margin-top: auto; padding-top: var(--sp-4); }
+
+/* Screens band ------------------------------------------------------------- */
+
+.screens-band { overflow: hidden; }
+.screens-strip {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(9.5rem, 1fr);
+  gap: var(--sp-6);
+  align-items: center;
+}
+.screens-strip img {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid var(--line-on-dark);
+  box-shadow: var(--shadow-lg);
+}
+.screens-strip img:nth-child(even) { transform: translateY(-18px); }
+
+/* Books on a dark band so the covers carry the section ---------------------- */
+
+.book-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: var(--sp-6);
+  align-items: end;
+}
+.book-showcase a { text-decoration: none; display: block; }
+.book-showcase img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.2s ease;
+}
+.book-showcase a:hover img { transform: translateY(-6px); }
+.book-showcase span {
+  display: block;
+  margin-top: var(--sp-3);
+  font-size: var(--fs-sm);
+  color: var(--text-on-dark-muted);
+}
+
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: 1fr; gap: var(--sp-10); }
+  .hero-art { max-width: 26rem; margin-inline: auto; }
+}
+@media (max-width: 720px) {
+  .screens-strip { grid-auto-columns: minmax(8rem, 1fr); }
+  .screens-strip img:nth-child(even) { transform: none; }
+}
