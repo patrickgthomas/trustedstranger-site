@@ -1,0 +1,122 @@
+// Builds the redirect sites that keep the retired trustedstranger.app hostnames
+// alive after the move to gidehub.com.
+//
+//   node tools/build-redirect-sites.mjs
+//
+// Every old hostname still points at GitHub Pages, and GitHub Pages allows one
+// custom domain per repository, so each hostname needs its own small repo.
+// Output goes to ../redirects/<name>/ ready to push.
+//
+// GitHub Pages cannot issue a real 301, so each site pairs a JS redirect with a
+// meta refresh, a canonical link, and a visible link for anything that runs
+// neither. Because the rebuilt site kept the old URL structure, 404.html can
+// forward any path by passing the pathname straight through.
+
+import { writeFileSync, mkdirSync, rmSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const OUT = join(ROOT, '..', 'redirects');
+
+const SITES = [
+  { name: 'trustedstranger-app-redirect', host: 'trustedstranger.app', target: 'https://gidehub.com', paths: true },
+  { name: 'trustedstranger-calm-redirect', host: 'calm.trustedstranger.app', target: 'https://calm.gidehub.com', paths: false },
+  { name: 'trustedstranger-faith-redirect', host: 'faith.trustedstranger.app', target: 'https://faith.gidehub.com', paths: false },
+  { name: 'trustedstranger-guard-redirect', host: 'guard.trustedstranger.app', target: 'https://guard.gidehub.com', paths: false },
+  { name: 'trustedstranger-stride-redirect', host: 'stride.trustedstranger.app', target: 'https://stride.gidehub.com', paths: false },
+  { name: 'trustedstranger-legacy-redirect', host: 'legacy.trustedstranger.app', target: 'https://legacy.gidehub.com', paths: false },
+];
+
+// `keepPath` is used by 404.html, which GitHub Pages serves for any unknown
+// path. The rebuilt site kept the same URL structure, so forwarding the
+// pathname unchanged lands people on the same page they asked for.
+function page({ target, keepPath, host }) {
+  const destination = keepPath
+    ? `'${target}' + location.pathname + location.search + location.hash`
+    : `'${target}/'`;
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gide has moved to gidehub.com</title>
+<link rel="canonical" href="${target}/">
+<meta http-equiv="refresh" content="0; url=${target}/">
+<meta name="robots" content="noindex, follow">
+<style>
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    background: #f5f5dc;
+    color: #16283a;
+    font: 17px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    text-align: center;
+  }
+  main { max-width: 32rem; }
+  h1 { font-size: 1.5rem; margin: 0 0 .75rem; color: #1b2b48; }
+  p { margin: 0 0 1.5rem; color: #55677a; }
+  a.btn {
+    display: inline-block;
+    padding: .75rem 1.5rem;
+    min-height: 44px;
+    box-sizing: border-box;
+    border-radius: 999px;
+    background: #d4af37;
+    color: #2b2205;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  code { background: #ebebc7; padding: .1em .4em; border-radius: 4px; font-size: .9em; }
+</style>
+<script>
+  // Runs before render, so most visitors never see this page.
+  location.replace(${destination});
+</script>
+</head>
+<body>
+<main>
+  <h1>Gide has a new home.</h1>
+  <p><code>${host}</code> is now <code>${target.replace('https://', '')}</code>. You should be redirected automatically.</p>
+  <p><a class="btn" href="${target}/">Continue to Gide</a></p>
+</main>
+</body>
+</html>
+`;
+}
+
+rmSync(OUT, { recursive: true, force: true });
+
+for (const site of SITES) {
+  const dir = join(OUT, site.name);
+  mkdirSync(dir, { recursive: true });
+
+  writeFileSync(join(dir, 'CNAME'), site.host + '\n');
+  writeFileSync(join(dir, 'index.html'), page({ ...site, keepPath: false }));
+  // 404.html catches every other old path.
+  writeFileSync(join(dir, '404.html'), page({ ...site, keepPath: site.paths }));
+  writeFileSync(join(dir, '.nojekyll'), '');
+  writeFileSync(
+    join(dir, 'robots.txt'),
+    `User-agent: *\nDisallow:\n\n# Retired domain. Canonical site: ${site.target}/\n`
+  );
+  writeFileSync(
+    join(dir, 'README.md'),
+    `# ${site.host} redirect\n\nKeeps the retired \`${site.host}\` hostname alive after the move to\n[${site.target}](${site.target}/).\n\nGitHub Pages cannot issue a real 301, so each page pairs a JavaScript redirect\nwith a meta refresh, a canonical link, and a visible link as a last resort.\n${
+      site.paths
+        ? '\n`404.html` forwards any path through unchanged, which works because the\nrebuilt site kept the same URL structure. So\n`https://' + site.host + '/books/ai-at-work/` lands on\n`' + site.target + '/books/ai-at-work/`.\n'
+        : '\nAll paths land on the site root, since this hostname only ever served a\nsingle landing page.\n'
+    }
+Generated by \`tools/build-redirect-sites.mjs\` in the main Gide site repo.
+Set the Pages custom domain to \`${site.host}\` after the first push.
+`
+  );
+
+  console.log(`${site.name.padEnd(34)} ${site.host.padEnd(28)} -> ${site.target}${site.paths ? ' (paths preserved)' : ''}`);
+}
+
+console.log(`\n${SITES.length} redirect sites written to ${OUT}`);
