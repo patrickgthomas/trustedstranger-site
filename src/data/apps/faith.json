@@ -1,0 +1,99 @@
+{
+  "slug": "faith",
+  "repo": "trustedstranger-faith",
+  "name": "Gide Faith",
+  "url": "https://faith.gidehub.com/",
+  "store": "https://apps.apple.com/ng/app/gide-faith/id6782227143",
+  "status": "available",
+  "statusLabel": "On the App Store",
+  "headline": "Faith-based encouragement whenever you need it.",
+  "lede": "Daily scripture, meaningful prayer, quiet reflection, and encouragement rooted in faith.",
+  "features": [
+    {
+      "icon": "\ud83d\udcd6",
+      "title": "Daily Scripture",
+      "body": "Find Bible verses selected to encourage, strengthen, and guide you."
+    },
+    {
+      "icon": "\ud83d\ude4f",
+      "title": "Prayer Library",
+      "body": "Access prayers for everyday situations, reflection, and support."
+    },
+    {
+      "icon": "\u2b50",
+      "title": "Faith-Based Encouragement",
+      "body": "Receive reminders designed to bring peace, hope, and daily focus."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "Home.png",
+      "alt": "Gide - Faith home screen",
+      "caption": "Home",
+      "webp": "assets/shots/home.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Journey.png",
+      "alt": "Gide - Faith prayer and scripture journey screen",
+      "caption": "Journey",
+      "webp": "assets/shots/journey.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "HowTo.png",
+      "alt": "Gide - Faith instructions",
+      "caption": "How To",
+      "webp": "assets/shots/howto.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Settings.png",
+      "alt": "Gide - Faith settings",
+      "caption": "Settings",
+      "webp": "assets/shots/settings.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "DarkSettings.png",
+      "alt": "Gide - Faith dark mode settings screen",
+      "caption": "Dark Mode",
+      "webp": "assets/shots/darksettings.webp",
+      "w": 370,
+      "h": 800
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Gide \u2013 Faith available now?",
+      "a": "Yes. Gide \u2013 Faith is available on the App Store and ready to help you discover daily scripture, prayer, and encouragement."
+    },
+    {
+      "q": "Do I need an account?",
+      "a": "No. Gide \u2013 Faith is designed to be simple and accessible without requiring a user account."
+    },
+    {
+      "q": "What does Gide \u2013 Faith include?",
+      "a": "Gide \u2013 Faith includes daily scripture, prayer, reflection, favorites, progress features, and faith-based encouragement."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com ."
+    }
+  ],
+  "cta": {
+    "heading": "Find encouragement rooted in faith.",
+    "body": "Download Gide \u2013 Faith for daily scripture, prayer, reflection, and peaceful reminders."
+  },
+  "imagesInRepo": [
+    "DarkSettings.png",
+    "Home.png",
+    "HowTo.png",
+    "Journey.png",
+    "Settings.png"
+  ]
+}

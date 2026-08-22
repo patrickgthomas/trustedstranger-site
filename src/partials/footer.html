@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="wrap">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="/">
+          <img src="/assets/images/logos/G-main-128.png" alt="" width="40" height="40" class="brand-mark" loading="lazy">
+          <span class="brand-name">Gide</span>
+        </a>
+        <p class="footer-tagline">{{site.tagline}}</p>
+        <p class="footer-blurb">{{site.blurb}}</p>
+        <a class="footer-email" href="mailto:{{site.email.support}}">{{site.email.support}}</a>
+      </div>
+
+      <div class="footer-cols">
+        {{columns}}
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{year}} Gide. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal">
+        {{legalLinks}}
+      </nav>
+    </div>
+
+  </div>
+</footer>

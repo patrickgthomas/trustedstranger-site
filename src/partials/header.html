@@ -1,0 +1,38 @@
+<header class="site-header" data-nav>
+  <div class="wrap header-inner">
+
+    <a class="brand" href="/">
+      <img src="/assets/images/logos/G-main-128.png" alt="" width="40" height="40" class="brand-mark">
+      <span class="brand-name">Gide</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Main">
+      <ul>
+        {{nav}}
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-gold btn-sm nav-cta" href="/#apps">Explore the apps</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+    </div>
+
+  </div>
+
+  <div class="nav-panel" id="mobile-nav" hidden>
+    <nav class="wrap" aria-label="Mobile">
+      <ul class="nav-panel-primary">
+        {{nav}}
+      </ul>
+      <ul class="nav-panel-secondary">
+        <li><a href="/about.html">About Gide</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/downloads.html">Free downloads</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-gold btn-block" href="/#apps">Explore the apps</a>
+    </nav>
+  </div>
+</header>

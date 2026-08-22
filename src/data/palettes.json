@@ -1,0 +1,10 @@
+{
+  "_note": "Official per-app brand palettes, taken from the Gide brand cards. 'accent' is a fill colour; the generator derives an AA-safe text variant from it.",
+  "main":   { "primary": "#1B2B48", "secondary": "#F5F5DC", "tertiary": "#6F7DBC", "accent": "#D4AF37" },
+  "guard":  { "primary": "#00167A", "secondary": "#F5F5DC", "tertiary": "#6F7D8C", "accent": "#D4AF37" },
+  "calm":   { "primary": "#03424D", "secondary": "#EAF7F6", "tertiary": "#6F7D8C", "accent": "#7DCFB6" },
+  "faith":  { "primary": "#590438", "secondary": "#FFF3F8", "tertiary": "#8B6F82", "accent": "#D4AF37" },
+  "stride": { "primary": "#17341D", "secondary": "#F2F7EE", "tertiary": "#6D8F68", "accent": "#D4AF5A" },
+  "legacy": { "primary": "#0A2540", "secondary": "#F5F0E6", "tertiary": "#FFFFFF", "accent": "#D4AF37" },
+  "roots":  { "primary": "#7A3E1A", "secondary": "#F5EBD6", "tertiary": "#E6E2D6", "accent": "#D4AF37" }
+}

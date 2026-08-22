@@ -1,0 +1,365 @@
+{
+  "name": "Gide",
+  "domain": "https://gidehub.com",
+  "tagline": "Guidance. Clarity. Progress.",
+  "blurb": "Better living with practical tools and AI guides.",
+  "description": "Gide creates practical apps and plain-English AI guides for safer, calmer, and more confident everyday living.",
+  "email": {
+    "support": "support@gidehub.com",
+    "privacy": "privacy@gidehub.com"
+  },
+  "nav": [
+    {
+      "label": "Apps",
+      "href": "/#apps"
+    },
+    {
+      "label": "AI Books",
+      "href": "/books/"
+    },
+    {
+      "label": "Resources",
+      "href": "/downloads.html"
+    },
+    {
+      "label": "Podcast",
+      "href": "/podcast.html"
+    },
+    {
+      "label": "Support",
+      "href": "/support.html"
+    }
+  ],
+  "apps": [
+    {
+      "slug": "guard",
+      "name": "Gide Guard",
+      "short": "Guard",
+      "url": "https://guard.gidehub.com/",
+      "store": "https://apps.apple.com/ng/app/gide-guard/id6779041138",
+      "status": "available",
+      "statusLabel": "On the App Store",
+      "tagline": "Think clearly about safety.",
+      "summary": "Helps you think through safety concerns, recognize suspicious situations, and stay aware of scams, fraud, and risk."
+    },
+    {
+      "slug": "calm",
+      "name": "Gide Calm",
+      "short": "Calm",
+      "url": "https://calm.gidehub.com/",
+      "store": "https://apps.apple.com/ng/app/gide-calm/id6778231374",
+      "status": "available",
+      "statusLabel": "On the App Store",
+      "tagline": "A pause when you need one.",
+      "summary": "Simple calming tools, reflections, and support for stressful moments when you need to pause and reset."
+    },
+    {
+      "slug": "faith",
+      "name": "Gide Faith",
+      "short": "Faith",
+      "url": "https://faith.gidehub.com/",
+      "store": "https://apps.apple.com/ng/app/gide-faith/id6782227143",
+      "status": "available",
+      "statusLabel": "On the App Store",
+      "tagline": "Daily scripture and prayer.",
+      "summary": "Scripture, prayer, reflection, and faith-based encouragement for daily spiritual growth."
+    },
+    {
+      "slug": "stride",
+      "name": "Gide Stride",
+      "short": "Stride",
+      "url": "https://stride.gidehub.com/",
+      "store": "",
+      "status": "review",
+      "statusLabel": "In review and testing",
+      "tagline": "Turn steps into progress.",
+      "summary": "Encourages movement, progress, and personal growth by turning steps and goals into visible progress."
+    },
+    {
+      "slug": "legacy",
+      "name": "Gide Legacy",
+      "short": "Legacy",
+      "url": "https://legacy.gidehub.com/",
+      "store": "https://play.google.com/store/apps/details?id=com.gidelegacy.app",
+      "status": "development",
+      "statusLabel": "In development",
+      "tagline": "Your family's private archive.",
+      "summary": "Preserve voices, photos, stories, and relationships in a private archive your family controls."
+    },
+    {
+      "slug": "roots",
+      "name": "Gide Roots",
+      "short": "Roots",
+      "url": "https://roots.gidehub.com/",
+      "store": "",
+      "status": "soon",
+      "statusLabel": "Coming soon",
+      "tagline": "The family tree, kept private.",
+      "summary": "Build and preserve the people, relationships, and generations that give your family story its structure."
+    }
+  ],
+  "books": [
+    {
+      "slug": "ai-wont-replace-you",
+      "title": "AI Won&rsquo;t Replace You",
+      "summary": "A practical introduction to AI, effective prompting, verification, privacy, and staying relevant.",
+      "cover": "/assets/images/books/covers/ai-wont-replace-you.webp",
+      "pdf": "/assets/downloads/books/1-AI-Wont-Replace-You.pdf",
+      "series": "AI Guide Series · Book One",
+      "tagline": "A practical introduction to artificial intelligence for everyday people.",
+      "hook": "Turn AI into an assistant, not an authority.",
+      "hookBody": "Understand AI as a prediction tool, learn effective prompting, recognize confident false answers, and use independent sources to verify important information.",
+      "inside": [
+        "A clear, non-technical explanation of modern AI",
+        "Prompting techniques for more useful results",
+        "Privacy rules for medical, financial, and workplace information",
+        "A practical mindset for staying productive and relevant"
+      ],
+      "format": "Free PDF"
+    },
+    {
+      "slug": "ai-for-everyday-life",
+      "title": "AI for Everyday Life",
+      "summary": "Use AI for household planning, learning, career tasks, decisions, and everyday organization.",
+      "cover": "/assets/images/books/covers/ai-for-everyday-life.webp",
+      "pdf": "/assets/downloads/books/2-AI-For-Everyday-Life.pdf",
+      "series": "AI Guide Series · Book Two",
+      "tagline": "A practical guide to making AI useful at home and throughout your day.",
+      "hook": "Use natural language to get practical help.",
+      "hookBody": "Learn how tools such as ChatGPT, Claude, and Gemini can support household management, career efficiency, learning, and better-prepared decisions.",
+      "inside": [
+        "Clear prompts with useful context",
+        "Household, career, and learning examples",
+        "Decision-support frameworks",
+        "Safety guidance for AI-driven scams and private information"
+      ],
+      "format": "Free PDF"
+    },
+    {
+      "slug": "ai-at-work",
+      "title": "AI at Work",
+      "summary": "Apply the 5D Work System to draft, digest, decide, design, and delegate more effectively.",
+      "cover": "/assets/images/books/covers/ai-at-work.webp",
+      "pdf": "/assets/downloads/books/3-AI-At-Work.pdf",
+      "series": "AI Guide Series · Book Three",
+      "tagline": "The 5D System for practical, responsible productivity.",
+      "hook": "Make AI useful at work.",
+      "hookBody": "Learn to Draft, Digest, Decide, Design, and Delegate routine tasks with AI while keeping data security, accuracy, and human judgment at the center.",
+      "inside": [
+        "A repeatable 5D productivity framework",
+        "Examples for several industries and job types",
+        "Guidance for avoiding hallucinations and protecting workplace data",
+        "Ideas for reducing administrative load and burnout"
+      ],
+      "format": "Free PDF"
+    },
+    {
+      "slug": "ai-safety-scam-prevention",
+      "title": "AI Safety and Scam Prevention",
+      "summary": "Recognize voice cloning, deepfakes, phishing, and other AI-powered fraud tactics.",
+      "cover": "/assets/images/books/covers/ai-safety-scam-prevention.webp",
+      "pdf": "/assets/downloads/books/4-AI-Safety-And-Scam-Prevention.pdf",
+      "series": "AI Guide Series · Book Four",
+      "tagline": "Practical protection for families in the age of synthetic media.",
+      "hook": "Protect trust from new forms of fraud.",
+      "hookBody": "Understand how scammers use voice cloning, deepfake video, sophisticated phishing, and emotional urgency - then build simple defenses before a crisis happens.",
+      "inside": [
+        "Family code words and verification habits",
+        "The SIFT method for checking information",
+        "Warning signs in AI-generated media",
+        "Password managers, two-factor authentication, and safer responses"
+      ],
+      "format": "Free PDF"
+    },
+    {
+      "slug": "ai-for-veterans",
+      "title": "AI for Veterans",
+      "summary": "Use AI to understand benefits, prepare questions, translate military skills, and navigate services.",
+      "cover": "/assets/images/books/covers/ai-for-veterans.webp",
+      "pdf": "/assets/downloads/books/5-AI-For-Veterans.pdf",
+      "series": "AI Guide Series · Book Five",
+      "tagline": "A practical guide to benefits, services, careers, and better-prepared questions.",
+      "hook": "Close the information gap.",
+      "hookBody": "Use AI as a research and preparation assistant for understanding complex benefit language, exploring services, and translating military experience for civilian opportunities.",
+      "inside": [
+        "Plain-English help with dense benefit information",
+        "Preparation for VA claims and personal statements",
+        "Healthcare, career, and state-level benefit research",
+        "Clear limits: AI does not replace accredited VSOs, attorneys, or medical professionals"
+      ],
+      "format": "Free PDF"
+    },
+    {
+      "slug": "ai-gold-rush",
+      "title": "The AI Gold Rush",
+      "summary": "See through get-rich-quick claims and focus on genuine value instead of opportunity-industry hype.",
+      "cover": "/assets/images/books/covers/ai-gold-rush.webp",
+      "pdf": "/assets/downloads/books/Special-The-AI-Gold-Rush.pdf",
+      "series": "AI Guide Series · Special Booklet",
+      "tagline": "Who is really getting rich - and what creates genuine value?",
+      "hook": "Look beyond the promise of effortless wealth.",
+      "hookBody": "Explore how influencers, marketing funnels, and survivorship bias can make AI opportunities appear easier and more profitable than they really are.",
+      "inside": [
+        "Lessons from historical gold rushes",
+        "How opportunity-industry marketing funnels work",
+        "The difference between gross revenue and actual profit",
+        "A framework for evaluating whether an AI idea solves a real problem"
+      ],
+      "format": "49-page PDF"
+    }
+  ],
+  "podcast": [
+    {
+      "n": 1,
+      "title": "Mastering AI as a Practical Prediction Machine",
+      "summary": "Understand what AI really does, where human judgment matters, and how to use the technology with clearer expectations.",
+      "file": "/assets/audio/podcast/mastering-ai-as-a-practical-prediction-machine.mp3"
+    },
+    {
+      "n": 2,
+      "title": "Stop Treating AI Like a Search Engine",
+      "summary": "Move from short keyword searches to contextual conversations that produce more useful and relevant results.",
+      "file": "/assets/audio/podcast/stop-treating-ai-like-a-search-engine.mp3"
+    },
+    {
+      "n": 3,
+      "title": "Reclaim Fifteen Hours Weekly with AI",
+      "summary": "Apply practical workflows to reduce repetitive work and create more time for judgment, relationships, and high-value tasks.",
+      "file": "/assets/audio/podcast/reclaim-fifteen-hours-weekly-with-ai.mp3"
+    },
+    {
+      "n": 4,
+      "title": "How AI Voice Clones Fool Your Brain",
+      "summary": "Learn why voice cloning feels convincing, how scammers create urgency, and why a second trusted channel matters.",
+      "file": "/assets/audio/podcast/how-ai-voice-clones-fool-your-brain.mp3"
+    },
+    {
+      "n": 5,
+      "title": "Hack Veterans Benefits with Everyday AI",
+      "summary": "Use AI to translate VA complexity, prepare clearer statements, research benefits, and support the human experts on your team.",
+      "file": "/assets/audio/podcast/hack-veterans-benefits-with-everyday-ai.mp3"
+    },
+    {
+      "n": 6,
+      "title": "The Trap of AI Passive Income",
+      "summary": "A grounded look at AI gold-rush promises, survivorship bias, lead magnets, expenses, and the value test.",
+      "file": "/assets/audio/podcast/the-trap-of-ai-passive-income.mp3"
+    }
+  ],
+  "footer": [
+    {
+      "heading": "Apps",
+      "links": [
+        {
+          "label": "Gide Guard",
+          "href": "https://guard.gidehub.com/"
+        },
+        {
+          "label": "Gide Calm",
+          "href": "https://calm.gidehub.com/"
+        },
+        {
+          "label": "Gide Faith",
+          "href": "https://faith.gidehub.com/"
+        },
+        {
+          "label": "Gide Stride",
+          "href": "https://stride.gidehub.com/"
+        },
+        {
+          "label": "Gide Legacy",
+          "href": "https://legacy.gidehub.com/"
+        },
+        {
+          "label": "Gide Roots",
+          "href": "https://roots.gidehub.com/"
+        }
+      ]
+    },
+    {
+      "heading": "AI Books",
+      "links": [
+        {
+          "label": "AI Won&rsquo;t Replace You",
+          "href": "/books/ai-wont-replace-you/"
+        },
+        {
+          "label": "AI for Everyday Life",
+          "href": "/books/ai-for-everyday-life/"
+        },
+        {
+          "label": "The AI Gold Rush",
+          "href": "/books/ai-gold-rush/"
+        },
+        {
+          "label": "All Books &amp; Guides",
+          "href": "/books/"
+        }
+      ]
+    },
+    {
+      "heading": "Resources",
+      "links": [
+        {
+          "label": "AI Wayfinder",
+          "href": "/resources/ai-wayfinder/"
+        },
+        {
+          "label": "AI Mastery &amp; Safety Guide",
+          "href": "/resources/ai-mastery-safety-guide/"
+        },
+        {
+          "label": "Infographics",
+          "href": "/resources/infographics/"
+        },
+        {
+          "label": "Podcast",
+          "href": "/podcast.html"
+        },
+        {
+          "label": "Downloads",
+          "href": "/downloads.html"
+        }
+      ]
+    },
+    {
+      "heading": "Company",
+      "links": [
+        {
+          "label": "About Gide",
+          "href": "/about.html"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog.html"
+        },
+        {
+          "label": "Support",
+          "href": "/support.html"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact.html"
+        },
+        {
+          "label": "Delete Account",
+          "href": "/delete-account.html"
+        }
+      ]
+    }
+  ],
+  "legal": [
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy.html"
+    },
+    {
+      "label": "Terms of Use",
+      "href": "/terms.html"
+    },
+    {
+      "label": "Disclaimer",
+      "href": "/disclaimer.html"
+    }
+  ]
+}

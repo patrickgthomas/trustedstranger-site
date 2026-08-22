@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <link rel="canonical" href="{{canonical}}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gide">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+  <meta property="og:image" content="{{site.domain}}{{ogImage}}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="/assets/images/logos/G-main-128.png">
+  <link rel="apple-touch-icon" href="/assets/images/logos/G-main-180.png">
+  <meta name="theme-color" content="#0f2740">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/gide.css">
+</head>
+<body class="{{bodyClass}}">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+{{header}}
+
+<main id="main">
+{{content}}
+</main>
+
+{{footer}}
+
+<script src="/assets/js/nav.js" defer></script>
+</body>
+</html>

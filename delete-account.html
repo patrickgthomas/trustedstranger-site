@@ -2,142 +2,231 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Delete a Gide app account and associated data or submit a deletion request to Trusted Stranger.">
-  <link rel="canonical" href="https://trustedstranger.app/delete-account.html">
-  <title>Delete Your Gide Account | Trusted Stranger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delete Your Account | Gide</title>
+  <meta name="description" content="How to request deletion of your Gide account and associated data.">
+  <link rel="canonical" href="https://gidehub.com/delete-account.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gide">
+  <meta property="og:title" content="Delete Your Account | Gide">
+  <meta property="og:description" content="How to request deletion of your Gide account and associated data.">
+  <meta property="og:url" content="https://gidehub.com/delete-account.html">
+  <meta property="og:image" content="https://gidehub.com/assets/images/logos/G-main.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" href="/assets/images/logos/G-main-128.png">
+  <link rel="apple-touch-icon" href="/assets/images/logos/G-main-180.png">
+  <meta name="theme-color" content="#0f2740">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/global.css">
-  <link rel="icon" type="image/png" href="assets/images/logos/G-main.png">
-  <style>
-    .legal-card form { margin: 1.5rem 0; }
-    .legal-card select {
-      width: 100%;
-      min-height: 48px;
-      padding: 0.75rem 1rem;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      background: var(--surface);
-      color: var(--text);
-      font: inherit;
-    }
-    .legal-card input[type="checkbox"] { margin-right: 0.5rem; }
-  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap">
+
+  <link rel="stylesheet" href="/assets/css/gide.css">
 </head>
-<body class="inner-page main-page">
+<body class="page-prose">
 
-  <header class="site-header standard-header navy-header">
-    <div class="header-inner">
-      <a href="index.html" class="brand">
-        <img src="assets/images/logos/G-main.png" alt="Gide logo" class="brand-logo">
-        <div class="brand-text">
-          <span class="brand-name">Gide</span>
-          <span class="brand-subtitle">by Trusted Stranger</span>
-        </div>
-      </a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html#apps">Products</a></li>
-          <li><a href="books/">AI Books</a></li>
-          <li><a href="downloads.html">Downloads</a></li>
-          <li><a href="resources/infographics/">Infographics</a></li>
-          <li><a href="support.html">Support</a></li>
-        </ul>
-      </nav>
-      <a href="index.html#apps" class="button button-gold header-button">Explore Gide</a>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-nav>
+  <div class="wrap header-inner">
+
+    <a class="brand" href="/">
+      <img src="/assets/images/logos/G-main-128.png" alt="" width="40" height="40" class="brand-mark">
+      <span class="brand-name">Gide</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Main">
+      <ul>
+        <li><a href="/#apps">Apps</a></li>
+          <li><a href="/books/">AI Books</a></li>
+          <li><a href="/downloads.html">Resources</a></li>
+          <li><a href="/podcast.html">Podcast</a></li>
+          <li><a href="/support.html">Support</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-gold btn-sm nav-cta" href="/#apps">Explore the apps</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+        <span class="nav-toggle-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
     </div>
-  </header>
 
-  <main class="legal-main">
-    <section class="legal-hero">
-      <p class="eyebrow">ACCOUNT &amp; DATA</p>
+  </div>
+
+  <div class="nav-panel" id="mobile-nav" hidden>
+    <nav class="wrap" aria-label="Mobile">
+      <ul class="nav-panel-primary">
+        <li><a href="/#apps">Apps</a></li>
+          <li><a href="/books/">AI Books</a></li>
+          <li><a href="/downloads.html">Resources</a></li>
+          <li><a href="/podcast.html">Podcast</a></li>
+          <li><a href="/support.html">Support</a></li>
+      </ul>
+      <ul class="nav-panel-secondary">
+        <li><a href="/about.html">About Gide</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/downloads.html">Free downloads</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn-gold btn-block" href="/#apps">Explore the apps</a>
+    </nav>
+  </div>
+</header>
+
+
+<main id="main">
+<section class="page-head">
+    <div class="wrap">
       <h1>Delete Your Gide Account</h1>
-      <p>Use the app for immediate deletion, or send us a deletion request below.</p>
-    </section>
+      
+    </div>
+  </section>
 
-    <section class="legal-card">
+  <div class="wrap">
+    <article class="prose">
+      <p>ACCOUNT &amp; DATA</p>
+      
+      <p>Use the app for immediate deletion, or send us a deletion request below.</p>
       <h2>Delete Gide &mdash; Legacy from the app</h2>
       <p>
-        Open <strong>Settings</strong>, scroll to <strong>Account</strong>, and
-        choose <strong>Delete my account and local data</strong>. After you
-        confirm, Gide deletes your Firebase sign-in identity, membership and
-        coordination records, and the complete local vault on that phone.
+      Open <strong>Settings</strong>, scroll to <strong>Account</strong>, and
+      choose <strong>Delete my account and local data</strong>. After you
+      confirm, Gide deletes your Firebase sign-in identity, membership and
+      coordination records, and the complete local vault on that phone.
       </p>
       <p>
-        If you organize a family, deletion also closes that family&rsquo;s Gide
-        service. Other family members keep files already stored on their own
-        phones or in their own Google Drive accounts.
+      If you organize a family, deletion also closes that family&rsquo;s Gide
+      service. Other family members keep files already stored on their own
+      phones or in their own Google Drive accounts.
       </p>
-
       <h2>What is not automatically deleted</h2>
       <p>
-        Files in your personal Google Drive remain under your control so you do
-        not lose your family archive unexpectedly. You can delete the
-        <strong>Gide &mdash; Legacy</strong> and
-        <strong>Gide &mdash; Legacy Backups</strong> folders directly in Google
-        Drive. Gide also deletes its RevenueCat customer record. Google Play
-        may retain transaction records required for purchases, refunds,
-        accounting, fraud prevention, or legal compliance.
+      Files in your personal Google Drive remain under your control so you do
+      not lose your family archive unexpectedly. You can delete the
+      <strong>Gide &mdash; Legacy</strong> and
+      <strong>Gide &mdash; Legacy Backups</strong> folders directly in Google
+      Drive. Gide also deletes its RevenueCat customer record. Google Play
+      may retain transaction records required for purchases, refunds,
+      accounting, fraud prevention, or legal compliance.
       </p>
-
       <h2>Request deletion without the app</h2>
       <p>
-        Submit this form using the email address connected to Gide. We may ask
-        you to verify control of that address before deleting the account. We
-        will respond and complete a verified request within 30 days.
+      Submit this form using the email address connected to Gide. We may ask
+      you to verify control of that address before deleting the account. We
+      will respond and complete a verified request within 30 days.
       </p>
-
-      <form action="https://formspree.io/f/mlgynqdj" method="POST">
-        <input type="hidden" name="_subject" value="Gide account deletion request">
-        <input type="hidden" name="request_type" value="account_deletion">
-
-        <p>
-          <label for="delete-name"><strong>Your name</strong></label><br>
-          <input id="delete-name" name="name" type="text" autocomplete="name" required>
-        </p>
-        <p>
-          <label for="delete-email"><strong>Google account email used with Gide</strong></label><br>
-          <input id="delete-email" name="email" type="email" autocomplete="email" required>
-        </p>
-        <p>
-          <label for="delete-app"><strong>Gide app</strong></label><br>
-          <select id="delete-app" name="app" required>
-            <option value="Gide - Legacy">Gide &mdash; Legacy</option>
-            <option value="Another Gide app">Another Gide app</option>
-          </select>
-        </p>
-        <p>
-          <label>
-            <input type="checkbox" name="confirmed" value="yes" required>
-            I am requesting permanent deletion of my Gide account and
-            developer-held account data.
-          </label>
-        </p>
-        <button type="submit" class="button button-gold">Send deletion request</button>
-      </form>
-
+      <form>
+      <input>
+      <input>
       <p>
-        You can also email
-        <a href="mailto:privacy@trustedstranger.app?subject=Gide%20account%20deletion%20request">privacy@trustedstranger.app</a>.
-        Do not send passwords, payment-card details, private stories, photos,
-        or other sensitive family information.
+      <label><strong>Your name</strong></label><br>
+      <input>
       </p>
-    </section>
-  </main>
+      <p>
+      <label><strong>Google account email used with Gide</strong></label><br>
+      <input>
+      </p>
+      <p>
+      <label><strong>Gide app</strong></label><br>
+      <select>
+      <option>Gide &mdash; Legacy</option>
+      <option>Another Gide app</option>
+      </select>
+      </p>
+      <p>
+      <label>
+      <input>
+      I am requesting permanent deletion of my Gide account and
+      developer-held account data.
+      </label>
+      </p>
+      <button>Send deletion request</button>
+      </form>
+      <p>
+      You can also email
+      <a href="mailto:privacy@gidehub.com?subject=Gide%20account%20deletion%20request">privacy@gidehub.com</a>.
+      Do not send passwords, payment-card details, private stories, photos,
+      or other sensitive family information.
+      </p>
+    </article>
+  </div>
 
-  <footer class="site-footer">
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="/">
+          <img src="/assets/images/logos/G-main-128.png" alt="" width="40" height="40" class="brand-mark" loading="lazy">
+          <span class="brand-name">Gide</span>
+        </a>
+        <p class="footer-tagline">Guidance. Clarity. Progress.</p>
+        <p class="footer-blurb">Better living with practical tools and AI guides.</p>
+        <a class="footer-email" href="mailto:support@gidehub.com">support@gidehub.com</a>
+      </div>
+
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h2>Apps</h2>
+          <ul>
+            <li><a href="https://guard.gidehub.com/">Gide Guard</a></li>
+            <li><a href="https://calm.gidehub.com/">Gide Calm</a></li>
+            <li><a href="https://faith.gidehub.com/">Gide Faith</a></li>
+            <li><a href="https://stride.gidehub.com/">Gide Stride</a></li>
+            <li><a href="https://legacy.gidehub.com/">Gide Legacy</a></li>
+            <li><a href="https://roots.gidehub.com/">Gide Roots</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>AI Books</h2>
+          <ul>
+            <li><a href="/books/ai-wont-replace-you/">AI Won&rsquo;t Replace You</a></li>
+            <li><a href="/books/ai-for-everyday-life/">AI for Everyday Life</a></li>
+            <li><a href="/books/ai-gold-rush/">The AI Gold Rush</a></li>
+            <li><a href="/books/">All Books &amp; Guides</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="/resources/ai-wayfinder/">AI Wayfinder</a></li>
+            <li><a href="/resources/ai-mastery-safety-guide/">AI Mastery &amp; Safety Guide</a></li>
+            <li><a href="/resources/infographics/">Infographics</a></li>
+            <li><a href="/podcast.html">Podcast</a></li>
+            <li><a href="/downloads.html">Downloads</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>Company</h2>
+          <ul>
+            <li><a href="/about.html">About Gide</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/support.html">Support</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="/delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
     <div class="footer-bottom">
       <p>&copy; 2026 Gide. All rights reserved.</p>
-      <div class="footer-legal">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="delete-account.html">Delete Account</a>
-        <a href="terms.html">Terms of Use</a>
-      </div>
-      <p>Gide and its related applications are owned and operated by Trusted Stranger.</p>
+      <nav class="footer-legal" aria-label="Legal">
+        <a href="/privacy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms of Use</a>
+          <a href="/disclaimer.html">Disclaimer</a>
+      </nav>
     </div>
-  </footer>
 
+  </div>
+</footer>
+
+
+<script src="/assets/js/nav.js" defer></script>
 </body>
 </html>
