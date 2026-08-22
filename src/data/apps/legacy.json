@@ -1,0 +1,72 @@
+{
+  "slug": "legacy",
+  "repo": "Gide-Legacy",
+  "name": "Gide Legacy",
+  "url": "https://legacy.gidehub.com/",
+  "store": "https://play.google.com/store/apps/details?id=com.gidelegacy.app",
+  "storeLabel": "Get Gide Legacy for Android",
+  "headline": "Every story belongs somewhere safe.",
+  "lede": "Gide Legacy helps your family preserve voices, photos, stories, and relationships in a private archive your family controls.",
+  "heroNote": "Joining an existing family is free. Only the organizer purchases the family license.",
+  "sectionEyebrow": "Built around privacy",
+  "sectionHeading": "Your memories are not social-media content.",
+  "sectionBody": "Gide Legacy keeps your family's stories in a private vault rather than on a public feed.",
+  "features": [
+    {
+      "icon": "⌂",
+      "title": "Your family owns the archive",
+      "body": "Stories and photos remain in your family's private vault."
+    },
+    {
+      "icon": "◎",
+      "title": "Firebase cannot read your memories",
+      "body": "It coordinates membership and access, not family content."
+    },
+    {
+      "icon": "✓",
+      "title": "You choose what to share",
+      "body": "Keep a memory private or share it with your family group."
+    }
+  ],
+  "steps": {
+    "eyebrow": "Simple from the first tap",
+    "heading": "Join your family in three easy steps.",
+    "items": [
+      {
+        "title": "Open your invitation",
+        "body": "Tap the private link sent by your family organizer."
+      },
+      {
+        "title": "Install and sign in",
+        "body": "Download Gide Legacy and sign in with your own Google account."
+      },
+      {
+        "title": "Join for free",
+        "body": "Your invitation connects you to the family. You will not be asked to buy another license."
+      }
+    ]
+  },
+  "screenshots": [],
+  "faq": [
+    {
+      "q": "Do I need to buy anything to join my family?",
+      "a": "No. Joining an existing family is free. Only the organizer purchases the family license."
+    },
+    {
+      "q": "Can Gide read our family memories?",
+      "a": "No. Firebase coordinates membership and access, not family content. Stories and photos remain in your family's private vault."
+    },
+    {
+      "q": "I have an invitation link. What do I do?",
+      "a": "Tap the private link your family organizer sent you. If the app is not installed yet, the link opens a page that walks you through joining."
+    }
+  ],
+  "cta": {
+    "heading": "Preserve the people and stories that made you.",
+    "body": "Start your family archive, or open the invitation someone already sent you."
+  },
+  "secondaryCta": {
+    "label": "I have an invite",
+    "href": "/join/"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "stride",
+  "repo": "trustedstranger-stride",
+  "name": "Gide Stride",
+  "url": "https://stride.gidehub.com/",
+  "store": "https://apps.apple.com/app/id6786793060",
+  "headline": "Turn your steps into a garden.",
+  "lede": "Gide Stride is a calm walking game where movement becomes dewdrops, dewdrops grow flowers, and flowers fill peaceful gardens.",
+  "sectionEyebrow": "A softer reason to move",
+  "sectionHeading": "Progress without pressure.",
+  "sectionBody": "Stride makes healthy movement feel like tending something beautiful. Instead of streak anxiety or noisy fitness charts, you collect dewdrops, plant seeds, unlock blooms, and build gardens at your own pace.",
+  "features": [
+    {
+      "icon": "☁",
+      "title": "Dewdrops from steps",
+      "body": "Use daily movement to collect dewdrops and keep your garden growing."
+    },
+    {
+      "icon": "✿",
+      "title": "Flowers and gardens",
+      "body": "Plant seeds, grow whimsical blooms, and place them in peaceful garden scenes."
+    },
+    {
+      "icon": "★",
+      "title": "Trophies and milestones",
+      "body": "Unlock badges for steps, gardens, blooms, and special moments of progress."
+    },
+    {
+      "icon": "⌂",
+      "title": "Private by design",
+      "body": "Stride is built as an offline game with progress stored locally on your device."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "Home.png",
+      "alt": "Gide Stride home screen",
+      "caption": "Home",
+      "webp": "assets/shots/home.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Grow.png",
+      "alt": "Gide Stride grow screen",
+      "caption": "Grow",
+      "webp": "assets/shots/grow.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Garden.png",
+      "alt": "Gide Stride garden screen",
+      "caption": "Garden",
+      "webp": "assets/shots/garden.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Trophies.png",
+      "alt": "Gide Stride trophies screen",
+      "caption": "Trophies",
+      "webp": "assets/shots/trophies.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "SettingsDark.png",
+      "alt": "Gide Stride settings screen in dark mode",
+      "caption": "Settings",
+      "webp": "assets/shots/settingsdark.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "PrivacyDark.png",
+      "alt": "Gide Stride privacy screen in dark mode",
+      "caption": "Privacy",
+      "webp": "assets/shots/privacydark.webp",
+      "w": 370,
+      "h": 800
+    }
+  ],
+  "privacy": {
+    "heading": "Your garden stays yours.",
+    "body": "Gide Stride is designed as an offline game. It does not require an account, and game progress is stored on your device. Step counts are read on-device when step tracking is enabled."
+  },
+  "faq": [
+    {
+      "q": "Does Stride require an account?",
+      "a": "No. Stride is designed as an offline game and does not require an account. Game progress is stored on your device."
+    },
+    {
+      "q": "How does Stride use my step count?",
+      "a": "Step counts are read on-device when step tracking is enabled, and are used to award dewdrops inside the game."
+    }
+  ],
+  "cta": {
+    "heading": "A calmer way to keep moving.",
+    "body": "Plant a garden one walk at a time, with no streaks to break and nothing to prove."
+  }
+}

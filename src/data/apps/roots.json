@@ -1,0 +1,95 @@
+{
+  "slug": "roots",
+  "repo": "Gide-Roots-Website",
+  "name": "Gide Roots",
+  "url": "https://roots.gidehub.com/",
+  "store": "",
+  "headline": "Grow the story of where you come from.",
+  "lede": "Build a beautiful, private family tree that connects the people in Gide Legacy and preserves the structure of your family for generations.",
+  "heroNote": "No account required &middot; Works offline &middot; Your data stays yours",
+  "sectionEyebrow": "Made for real family stories",
+  "sectionHeading": "More than names on a chart.",
+  "sectionBody": "Roots gives you four thoughtful ways to see your family, plus simple tools to build, organize, move, and preserve your history.",
+  "features": [
+    {
+      "icon": "✦",
+      "title": "Living family tree",
+      "body": "Explore your family in a distinctive, rotating tree view that makes every branch feel alive."
+    },
+    {
+      "icon": "⌘",
+      "title": "Clear family chart",
+      "body": "See generations, parents, children, and spouses in a familiar chart you can pan and zoom."
+    },
+    {
+      "icon": "❧",
+      "title": "Heirloom parchment",
+      "body": "Turn family connections into a warm, keepsake-style pedigree inspired by aged paper and ink."
+    },
+    {
+      "icon": "◎",
+      "title": "People at a glance",
+      "body": "Keep names, dates, places, portraits, and relationships organized in one sortable list."
+    },
+    {
+      "icon": "⇄",
+      "title": "GEDCOM compatible",
+      "body": "Import an existing genealogy file or export your tree in the widely used GEDCOM format."
+    },
+    {
+      "icon": "⌂",
+      "title": "Private by design",
+      "body": "No account, no cloud, and no Google sign-in. Your family information stays on your device."
+    }
+  ],
+  "screenshots": [],
+  "privacy": {
+    "heading": "Your tree belongs to you.",
+    "body": "Roots works without an account or cloud service. Your family information is stored locally on your device, and you decide when to import, export, or share it.",
+    "points": [
+      {
+        "title": "No tracking",
+        "body": "Roots does not collect or sell your family information."
+      },
+      {
+        "title": "No connection required",
+        "body": "Build and explore your tree while offline."
+      },
+      {
+        "title": "You stay in control",
+        "body": "Move your own data with roster and GEDCOM tools."
+      }
+    ]
+  },
+  "companion": {
+    "eyebrow": "Better together, strong on their own",
+    "heading": "The companion app to Gide Legacy.",
+    "body": "Roots organizes the people and relationships in your family. Gide Legacy preserves the memories and media that bring those people to life. Roots works fully on its own, and the two apps are designed to share one family roster when used together.",
+    "link": {
+      "label": "Discover Gide Legacy",
+      "href": "https://legacy.gidehub.com/"
+    }
+  },
+  "faq": [
+    {
+      "q": "Does Roots require an account?",
+      "a": "No. Roots works without an account, cloud service, or Google sign-in."
+    },
+    {
+      "q": "Can I import an existing family tree?",
+      "a": "Yes. Roots supports GEDCOM import and export for compatible genealogy tools."
+    },
+    {
+      "q": "Is my family information uploaded?",
+      "a": "No. Roots stores your family roster on your device. You decide if and when to share it."
+    },
+    {
+      "q": "Do I need Gide Legacy?",
+      "a": "No. Roots is a standalone app, but it is designed as the companion app to Gide Legacy."
+    }
+  ],
+  "cta": {
+    "heading": "Keep your family story growing.",
+    "body": "Build a private family tree that stays on your device and belongs to you."
+  }
+}

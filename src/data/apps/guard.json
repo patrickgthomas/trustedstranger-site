@@ -1,0 +1,120 @@
+{
+  "slug": "guard",
+  "repo": "trustedstranger-guard",
+  "name": "Gide Guard",
+  "url": "https://guard.gidehub.com/",
+  "store": "https://apps.apple.com/app/id6779041138",
+  "headline": "Protect yourself from scams, fraud, and suspicious messages.",
+  "lede": "Quickly review emails, text messages, links, websites, social media messages, and other communications before you respond.",
+  "features": [
+    {
+      "icon": "🛡️",
+      "title": "Scam Detection",
+      "body": "Paste suspicious messages and receive an easy-to-understand risk assessment."
+    },
+    {
+      "icon": "📧",
+      "title": "Email &amp; Text Analysis",
+      "body": "Check emails, text messages, and direct messages for common scam tactics, phishing attempts, and red flags."
+    },
+    {
+      "icon": "🌐",
+      "title": "Website Safety Checks",
+      "body": "Review suspicious links and websites before you visit or respond."
+    },
+    {
+      "icon": "🚩",
+      "title": "Risk Explanations",
+      "body": "Learn why a message may be risky with clear explanations instead of technical jargon."
+    },
+    {
+      "icon": "📚",
+      "title": "Scam Awareness",
+      "body": "Learn about common fraud tactics used in phishing, impersonation, fake offers, and online scams."
+    },
+    {
+      "icon": "⭐",
+      "title": "Simple One-Time Purchase",
+      "body": "Buy once and use it for life. Gide – Guard is designed without subscriptions."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "Home.png",
+      "alt": "Gide Guard home screen",
+      "caption": "Home",
+      "webp": "assets/shots/home.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Dark.png",
+      "alt": "Gide Guard dark mode settings screen",
+      "caption": "Dark Mode",
+      "webp": "assets/shots/dark.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "History.png",
+      "alt": "Gide Guard analysis history screen",
+      "caption": "History",
+      "webp": "assets/shots/history.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "About.png",
+      "alt": "Gide Guard about screen",
+      "caption": "About",
+      "webp": "assets/shots/about.webp",
+      "w": 370,
+      "h": 800
+    },
+    {
+      "src": "Settings.png",
+      "alt": "Gide Guard settings screen",
+      "caption": "Settings",
+      "webp": "assets/shots/settings.webp",
+      "w": 370,
+      "h": 800
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Gide – Guard available now?",
+      "a": "Yes. Gide – Guard is available on the App Store as a simple tool to help users recognize suspicious messages and scam warning signs."
+    },
+    {
+      "q": "What types of scams can Guard help identify?",
+      "a": "Guard is designed to help identify phishing emails, fraudulent text messages, fake websites, impersonation scams, online marketplace scams, suspicious links, and other risky communications."
+    },
+    {
+      "q": "Does Guard guarantee that a message is safe?",
+      "a": "No. Gide – Guard provides guidance and risk awareness to help you make a more informed decision. No app can guarantee that every message, website, person, or offer is safe."
+    },
+    {
+      "q": "Does Guard replace professional cybersecurity help?",
+      "a": "No. Gide – Guard is an educational and personal-use tool. It is not a substitute for professional cybersecurity, legal, financial, or fraud investigation services."
+    },
+    {
+      "q": "How much does Gide – Guard cost?",
+      "a": "Gide – Guard is available for a one-time purchase of $0.99. Buy it once and use it for life. No subscription is required."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com ."
+    }
+  ],
+  "cta": {
+    "heading": "Check before you click, reply, or share.",
+    "body": "Download Gide – Guard to help spot suspicious messages, risky links, and common scam warning signs."
+  },
+  "imagesInRepo": [
+    "About.png",
+    "Dark.png",
+    "History.png",
+    "Home.png",
+    "Settings.png"
+  ]
+}
