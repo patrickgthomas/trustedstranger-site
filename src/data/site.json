@@ -36,7 +36,7 @@
       "name": "Gide Guard",
       "short": "Guard",
       "url": "https://guard.gidehub.com/",
-      "store": "https://apps.apple.com/ng/app/gide-guard/id6779041138",
+      "store": "https://apps.apple.com/app/id6779041138",
       "tagline": "Think clearly about safety.",
       "summary": "Helps you think through safety concerns, recognize suspicious situations, and stay aware of scams, fraud, and risk."
     },
@@ -45,7 +45,7 @@
       "name": "Gide Calm",
       "short": "Calm",
       "url": "https://calm.gidehub.com/",
-      "store": "https://apps.apple.com/ng/app/gide-calm/id6778231374",
+      "store": "https://apps.apple.com/app/id6778231374",
       "tagline": "A pause when you need one.",
       "summary": "Simple calming tools, reflections, and support for stressful moments when you need to pause and reset."
     },
@@ -54,7 +54,7 @@
       "name": "Gide Faith",
       "short": "Faith",
       "url": "https://faith.gidehub.com/",
-      "store": "https://apps.apple.com/ng/app/gide-faith/id6782227143",
+      "store": "https://apps.apple.com/app/id6782227143",
       "tagline": "Daily scripture and prayer.",
       "summary": "Scripture, prayer, reflection, and faith-based encouragement for daily spiritual growth."
     },
@@ -63,7 +63,7 @@
       "name": "Gide Stride",
       "short": "Stride",
       "url": "https://stride.gidehub.com/",
-      "store": "",
+      "store": "https://apps.apple.com/app/id6786793060",
       "tagline": "Turn steps into progress.",
       "summary": "Encourages movement, progress, and personal growth by turning steps and goals into visible progress."
     },
