@@ -29,6 +29,16 @@
       "icon": "⌂",
       "title": "Private by design",
       "body": "Stride is built as an offline game with progress stored locally on your device."
+    },
+    {
+      "icon": "♡",
+      "title": "Works with your phone's health app",
+      "body": "Turn on auto-tracking and Stride reads your steps from your phone's health app, right on your device."
+    },
+    {
+      "icon": "☾",
+      "title": "Gentle, optional reminders",
+      "body": "Choose a daily nudge or a heads-up when your dewdrop collector is full. Leave them off if you prefer."
     }
   ],
   "screenshots": [
@@ -87,12 +97,24 @@
   },
   "faq": [
     {
+      "q": "Is Gide Stride available now?",
+      "a": "Yes. Gide Stride is available on the App Store."
+    },
+    {
       "q": "Does Stride require an account?",
       "a": "No. Stride is designed as an offline game and does not require an account. Game progress is stored on your device."
     },
     {
       "q": "How does Stride use my step count?",
       "a": "Step counts are read on-device when step tracking is enabled, and are used to award dewdrops inside the game."
+    },
+    {
+      "q": "What happens if I miss a day?",
+      "a": "Nothing bad. Stride has no streaks to break. Your garden waits for you and keeps growing whenever you walk."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com."
     }
   ],
   "cta": {
