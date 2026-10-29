@@ -8,17 +8,17 @@
   "lede": "Simple breathing tools, peaceful reflections, calming reminders, and quiet support for stressful moments.",
   "features": [
     {
-      "icon": "🫁",
+      "icon": "≈",
       "title": "Guided Breathing",
       "body": "Use simple breathing exercises to slow down, reset, and regain focus."
     },
     {
-      "icon": "🪷",
+      "icon": "❀",
       "title": "Calm Reflections",
       "body": "Read short reflections designed to bring peace, perspective, and encouragement."
     },
     {
-      "icon": "🎧",
+      "icon": "♪",
       "title": "Deep-Dive Audio",
       "body": "Listen to calming audio support when you need a longer guided reset."
     }
@@ -26,7 +26,7 @@
   "screenshots": [
     {
       "src": "Home.png",
-      "alt": "Gide - Calm home screen",
+      "alt": "Gide Calm home screen",
       "caption": "Home",
       "webp": "assets/shots/home.webp",
       "w": 370,
@@ -34,7 +34,7 @@
     },
     {
       "src": "SelectDate.png",
-      "alt": "Gide - Calm browse screen",
+      "alt": "Gide Calm browse screen",
       "caption": "Browse",
       "webp": "assets/shots/selectdate.webp",
       "w": 370,
@@ -42,7 +42,7 @@
     },
     {
       "src": "Favorites.png",
-      "alt": "Gide - Calm favorites screen",
+      "alt": "Gide Calm favorites screen",
       "caption": "Favorites",
       "webp": "assets/shots/favorites.webp",
       "w": 370,
@@ -50,7 +50,7 @@
     },
     {
       "src": "Sound.png",
-      "alt": "Gide - Calm audio screen",
+      "alt": "Gide Calm audio screen",
       "caption": "Audio",
       "webp": "assets/shots/sound.webp",
       "w": 370,
@@ -58,7 +58,7 @@
     },
     {
       "src": "Settings.png",
-      "alt": "Gide - Calm settings screen",
+      "alt": "Gide Calm settings screen",
       "caption": "Settings",
       "webp": "assets/shots/settings.webp",
       "w": 370,
@@ -67,29 +67,29 @@
   ],
   "faq": [
     {
-      "q": "Is Gide – Calm available now?",
-      "a": "Yes. Gide – Calm is available on the App Store and ready to provide simple tools for calm, reflection, and relaxation."
+      "q": "Is Gide Calm available now?",
+      "a": "Yes. Gide Calm is available on the App Store and ready to provide simple tools for calm, reflection, and relaxation."
     },
     {
       "q": "Do I need an account?",
-      "a": "No. Gide – Calm is designed to be simple and accessible without requiring a user account."
+      "a": "No. Gide Calm is designed to be simple and accessible without requiring a user account."
     },
     {
-      "q": "What does Gide – Calm include?",
-      "a": "Gide – Calm includes breathing tools, calm reflections, peaceful reminders, and audio support for quiet moments."
+      "q": "What does Gide Calm include?",
+      "a": "Gide Calm includes breathing tools, calm reflections, peaceful reminders, and audio support for quiet moments."
     },
     {
-      "q": "Is Gide – Calm medical or mental health treatment?",
-      "a": "No. Gide – Calm is for general wellness and personal support only. It is not medical advice, therapy, diagnosis, or mental health treatment."
+      "q": "Is Gide Calm medical or mental health treatment?",
+      "a": "No. Gide Calm is for general wellness and personal support only. It is not medical advice, therapy, diagnosis, or mental health treatment."
     },
     {
       "q": "How do I get support?",
-      "a": "Email us at support@gidehub.com ."
+      "a": "Email us at support@gidehub.com."
     }
   ],
   "cta": {
     "heading": "Find a calmer moment.",
-    "body": "Download Gide – Calm for breathing exercises, peaceful reflections, and simple support when life feels heavy."
+    "body": "Download Gide Calm for breathing exercises, peaceful reflections, and simple support when life feels heavy."
   },
   "imagesInRepo": [
     "Favorites.png",

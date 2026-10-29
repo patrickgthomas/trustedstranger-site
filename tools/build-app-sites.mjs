@@ -186,7 +186,11 @@ ${items}
 }
 
 function storeButton(app, className = 'btn btn-accent') {
-  if (!app.store) return '';
+  // Apps without a public store listing can name their own primary action
+  // (for example, Legacy's "Start a family archive").
+  if (!app.store) {
+    return app.primaryCta ? `<a class="${className}" href="${app.primaryCta.href}">${esc(app.primaryCta.label)}</a>` : '';
+  }
   const label =
     app.storeLabel || (app.store.includes('play.google') ? 'Get it on Google Play' : 'Download on the App Store');
   return `<a class="${className}" href="${app.store}">${label}</a>`;
