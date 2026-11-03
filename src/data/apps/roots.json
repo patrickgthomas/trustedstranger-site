@@ -39,13 +39,13 @@
     {
       "icon": "⌂",
       "title": "Private by design",
-      "body": "No account, no cloud, and no Google sign-in. Your family information stays on your device."
+      "body": "Use Roots without an account. Family information is stored locally and automatically exchanged with a compatible Legacy family on the same device."
     }
   ],
   "screenshots": [],
   "privacy": {
     "heading": "Your tree belongs to you.",
-    "body": "Roots works without an account or cloud service. Your family information is stored locally on your device, and you decide when to import, export, or share it.",
+    "body": "Roots works without its own account or cloud service. With a compatible Legacy family on the same device, family-directory information is exchanged automatically. Legacy may use that information for family-sharing and cloud features according to its settings and permissions.",
     "points": [
       {
         "title": "No tracking",
@@ -81,7 +81,7 @@
     },
     {
       "q": "Is my family information uploaded?",
-      "a": "No. Roots stores your family roster on your device. You decide if and when to share it."
+      "a": "Roots stores your roster locally, but automatically exchanges family-directory information with a compatible Legacy family on the same device. Legacy may use it for cloud and family-sharing features according to its settings. Device backups and files you export may also hold copies."
     },
     {
       "q": "Do I need Gide Legacy?",
@@ -90,6 +90,7 @@
   ],
   "cta": {
     "heading": "Keep your family story growing.",
-    "body": "Build a private family tree that stays on your device and belongs to you."
+    "body": "Build your family tree locally, with automatic directory exchange when you use a compatible Legacy family on the same device."
   }
 }
+
