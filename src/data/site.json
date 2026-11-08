@@ -102,6 +102,15 @@
       "store": "",
       "tagline": "Classic FreeCell, easy on the eyes.",
       "summary": "Big, clear cards you tap to move, hints that lead to a win, and the classic numbered games. No ads, no timer, no account."
+    },
+    {
+      "slug": "reversi",
+      "name": "Gide Reversi",
+      "short": "Reversi",
+      "url": "https://reversi.gidehub.com/",
+      "store": "",
+      "tagline": "The classic disc-flipping game, on velvet.",
+      "summary": "Big ivory and onyx discs on a velvet board. Play a friendly computer or pass the phone. No ads, no timer, no account."
     }
   ],
   "books": [

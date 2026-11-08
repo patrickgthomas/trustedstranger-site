@@ -1,0 +1,123 @@
+{
+  "slug": "reversi",
+  "repo": "gide-reversi-site",
+  "name": "Gide Reversi",
+  "url": "https://reversi.gidehub.com/",
+  "store": "",
+  "headline": "The classic disc-flipping game, on velvet.",
+  "lede": "Big ivory and onyx discs on a purple or red velvet board. Play a friendly computer or a friend on the same phone. No ads, timers, or accounts.",
+  "features": [
+    {
+      "icon": "●",
+      "title": "Big, clear discs",
+      "body": "Ivory and onyx discs with a gold rim, easy to count at a glance on a phone or tablet."
+    },
+    {
+      "icon": "✓",
+      "title": "Tap a gold dot",
+      "body": "Dots show every square where you can play. Tap one and the trapped discs turn over."
+    },
+    {
+      "icon": "♟",
+      "title": "A kind opponent",
+      "body": "Relaxed makes friendly mistakes, Steady plays a solid game, and Sharp is a real challenge."
+    },
+    {
+      "icon": "⇄",
+      "title": "Two players",
+      "body": "Pass the phone back and forth to play a friend or a grandchild."
+    },
+    {
+      "icon": "?",
+      "title": "Hint and Undo",
+      "body": "Hint lights up the strongest move. Undo takes back your move as often as you like."
+    },
+    {
+      "icon": "◐",
+      "title": "Purple or red velvet",
+      "body": "Pick the board you like best. The dark discs carry a small gold Gide G."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "",
+      "alt": "Gide Reversi game on purple velvet",
+      "caption": "Playing",
+      "webp": "assets/shots/play.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide Reversi showing a hint",
+      "caption": "Hint",
+      "webp": "assets/shots/hint.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide Reversi on red velvet",
+      "caption": "Red velvet",
+      "webp": "assets/shots/red.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide Reversi settings",
+      "caption": "Settings",
+      "webp": "assets/shots/settings.webp",
+      "w": 370,
+      "h": 804
+    }
+  ],
+  "privacy": {
+    "heading": "Nothing to collect.",
+    "body": "Gide Reversi works without an account or an internet connection. Your game and settings are saved only on your device.",
+    "points": [
+      {
+        "title": "No ads",
+        "body": "No pop-ups, banners, or videos between games."
+      },
+      {
+        "title": "No tracking",
+        "body": "The app doesn't collect, share, or sell any information."
+      },
+      {
+        "title": "Works offline",
+        "body": "Play anywhere, with or without a connection."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "How do I play?",
+      "a": "Place a disc so that it traps a line of the other color between your new disc and one of yours. The trapped discs flip to your color. When the board fills, or neither side can move, the most discs wins."
+    },
+    {
+      "q": "What happens if I can't move?",
+      "a": "Your turn is skipped and the message line tells you so. If neither side can move, the game ends."
+    },
+    {
+      "q": "Is this Othello?",
+      "a": "It's the same classic game, also known as Reversi."
+    },
+    {
+      "q": "Can I play against a person?",
+      "a": "Yes. Choose Two players in Settings and pass the phone after each turn."
+    },
+    {
+      "q": "Do I need an account?",
+      "a": "No. There's no sign-in, and nothing leaves your device."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com."
+    }
+  ],
+  "cta": {
+    "heading": "Set up a calm game.",
+    "body": "Gide Reversi is the classic disc-flipping game with big pieces, a friendly opponent, and no ads."
+  }
+}
