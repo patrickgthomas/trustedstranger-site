@@ -1,0 +1,123 @@
+{
+  "slug": "freecell",
+  "repo": "gide-freecell-site",
+  "name": "Gide FreeCell",
+  "url": "https://freecell.gidehub.com/",
+  "store": "",
+  "headline": "Classic FreeCell, easy on the eyes.",
+  "lede": "Big, clear cards you tap to move, hints that always lead toward a win, and the classic numbered games. No ads, timers, or accounts.",
+  "features": [
+    {
+      "icon": "♠",
+      "title": "Big, clear cards",
+      "body": "High-contrast cards in a typeface made for easy reading, sized to fill your phone or tablet."
+    },
+    {
+      "icon": "✓",
+      "title": "Tap to move",
+      "body": "Tap a card and it goes to the best spot. Press and hold to put it in a free cell. No dragging."
+    },
+    {
+      "icon": "?",
+      "title": "Hints that lead to a win",
+      "body": "Tap Hint and the game works out a move that still wins. If you can no longer win from where you are, it tells you, so you can Undo."
+    },
+    {
+      "icon": "#",
+      "title": "The classic numbered games",
+      "body": "Play any game from #1 to #32000, the same deals as the FreeCell you remember. The one deal that can't be won is never dealt."
+    },
+    {
+      "icon": "◐",
+      "title": "Four-color suits",
+      "body": "Turn on blue diamonds and green clubs to tell the suits apart at a glance."
+    },
+    {
+      "icon": "↻",
+      "title": "Less tapping",
+      "body": "Cards the table no longer needs go home on their own, and the game finishes itself once every column is in order."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "",
+      "alt": "Gide FreeCell game in progress",
+      "caption": "Playing",
+      "webp": "assets/shots/play.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide FreeCell showing a hint",
+      "caption": "Hint",
+      "webp": "assets/shots/hint.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide FreeCell with four-color suits",
+      "caption": "Four-color suits",
+      "webp": "assets/shots/fourcolor.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide FreeCell settings",
+      "caption": "Settings",
+      "webp": "assets/shots/settings.webp",
+      "w": 370,
+      "h": 804
+    }
+  ],
+  "privacy": {
+    "heading": "Nothing to collect.",
+    "body": "Gide FreeCell works without an account or an internet connection. Your game and settings are saved only on your device.",
+    "points": [
+      {
+        "title": "No ads",
+        "body": "No pop-ups, banners, or videos between games."
+      },
+      {
+        "title": "No tracking",
+        "body": "The app doesn't collect, share, or sell any information."
+      },
+      {
+        "title": "Works offline",
+        "body": "Play anywhere, with or without a connection."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can every game be won?",
+      "a": "All but one of the 32,000 classic games can be won, and that one (#11982) is never dealt. You can still get stuck by your own moves. Hint tells you when that has happened, and Undo lets you back up and try another way."
+    },
+    {
+      "q": "Are these the same game numbers I remember?",
+      "a": "Yes. Gide FreeCell uses the same numbered deals as the classic FreeCell, so Game #617 is the same layout it has always been. Choose New game, then Play a game by number."
+    },
+    {
+      "q": "Do I need an account?",
+      "a": "No. There's no sign-in, and nothing leaves your device."
+    },
+    {
+      "q": "Can I make the suits easier to tell apart?",
+      "a": "Yes. Turn on Four-color suits in Settings for blue diamonds and green clubs."
+    },
+    {
+      "q": "Does it work on iPad?",
+      "a": "Yes. The cards grow to fill the screen, in portrait or landscape."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com."
+    }
+  ],
+  "cta": {
+    "heading": "Deal a calm game.",
+    "body": "Gide FreeCell is classic FreeCell with big cards, hints that lead to a win, and no ads."
+  }
+}
