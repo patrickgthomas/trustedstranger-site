@@ -8,5 +8,6 @@
   "legacy": { "primary": "#0A2540", "secondary": "#F5F0E6", "tertiary": "#FFFFFF", "accent": "#D4AF37" },
   "roots":  { "primary": "#7A3E1A", "secondary": "#F5EBD6", "tertiary": "#E6E2D6", "accent": "#D4AF37" },
   "solitaire": { "primary": "#7A1420", "secondary": "#FBF3EA", "tertiary": "#E9DCCB", "accent": "#D4AF37" },
-  "freecell": { "primary": "#8E3A12", "secondary": "#FBF3EA", "tertiary": "#E9DCCB", "accent": "#D4AF37" }
+  "freecell": { "primary": "#8E3A12", "secondary": "#FBF3EA", "tertiary": "#E9DCCB", "accent": "#D4AF37" },
+  "reversi": { "primary": "#5A2878", "secondary": "#FBF3EA", "tertiary": "#E9DCCB", "accent": "#D4AF37" }
 }
