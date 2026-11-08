@@ -1,0 +1,119 @@
+{
+  "slug": "solitaire",
+  "repo": "gide-solitaire-site",
+  "name": "Gide Solitaire",
+  "url": "https://solitaire.gidehub.com/",
+  "store": "",
+  "headline": "Classic solitaire, easy on the eyes.",
+  "lede": "Big, clear cards you tap to move. Every deal can be won, and there are no ads, timers, or accounts.",
+  "features": [
+    {
+      "icon": "♠",
+      "title": "Big, clear cards",
+      "body": "High-contrast cards in a typeface made for easy reading, sized to fill your phone or tablet."
+    },
+    {
+      "icon": "✓",
+      "title": "Tap to move",
+      "body": "Tap a card and it goes to the best spot. No dragging, and a gentle message when a card has nowhere to go."
+    },
+    {
+      "icon": "★",
+      "title": "Every deal can be won",
+      "body": "Each game is checked before it's dealt, so there's always a way to finish. Undo as often as you like."
+    },
+    {
+      "icon": "?",
+      "title": "Hints when you want them",
+      "body": "Tap Hint to see a good next move. Once every card is showing, the game finishes itself."
+    },
+    {
+      "icon": "◐",
+      "title": "Four-color suits",
+      "body": "Turn on blue diamonds and green clubs to tell the suits apart at a glance."
+    },
+    {
+      "icon": "↻",
+      "title": "One or three cards",
+      "body": "Turn one card at a time for a relaxed game, or three for a classic challenge."
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "",
+      "alt": "Gide Solitaire game in progress",
+      "caption": "Playing",
+      "webp": "assets/shots/play.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide Solitaire with four-color suits",
+      "caption": "Four-color suits",
+      "webp": "assets/shots/fourcolor.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "A fresh Gide Solitaire deal",
+      "caption": "New game",
+      "webp": "assets/shots/newgame.webp",
+      "w": 370,
+      "h": 804
+    },
+    {
+      "src": "",
+      "alt": "Gide Solitaire settings",
+      "caption": "Settings",
+      "webp": "assets/shots/settings.webp",
+      "w": 370,
+      "h": 804
+    }
+  ],
+  "privacy": {
+    "heading": "Nothing to collect.",
+    "body": "Gide Solitaire works without an account or an internet connection. Your game and settings are saved only on your device.",
+    "points": [
+      {
+        "title": "No ads",
+        "body": "No pop-ups, banners, or videos between games."
+      },
+      {
+        "title": "No tracking",
+        "body": "The app doesn't collect, share, or sell any information."
+      },
+      {
+        "title": "Works offline",
+        "body": "Play anywhere, with or without a connection."
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Can every game really be won?",
+      "a": "Yes. Before a deal is shown, Gide Solitaire plays it out with every card visible and only keeps deals it can win. You can still get stuck by your own moves, and Undo always lets you back up and try another way."
+    },
+    {
+      "q": "Do I need an account?",
+      "a": "No. There's no sign-in, and nothing leaves your device."
+    },
+    {
+      "q": "Can I make the suits easier to tell apart?",
+      "a": "Yes. Turn on Four-color suits in Settings for blue diamonds and green clubs."
+    },
+    {
+      "q": "Does it work on iPad?",
+      "a": "Yes. The cards grow to fill the screen, in portrait or landscape."
+    },
+    {
+      "q": "How do I get support?",
+      "a": "Email us at support@gidehub.com."
+    }
+  ],
+  "cta": {
+    "heading": "Deal a calm game.",
+    "body": "Gide Solitaire is classic Klondike with big cards, gentle hints, and no ads."
+  }
+}

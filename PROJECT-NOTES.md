@@ -24,6 +24,7 @@ Standing requirements for every future website update.
 - Gide Stride: `https://stride.gidehub.com/`
 - Gide Legacy: `https://legacy.gidehub.com/`
 - Gide Roots: `https://roots.gidehub.com/`
+- Gide Solitaire: `https://solitaire.gidehub.com/` (repo `gide-solitaire-site`)
 
 The old `/apps/<slug>/` URLs are kept as `noindex` redirects to these subdomains
 so existing links do not break.
