@@ -84,6 +84,15 @@
       "store": "",
       "tagline": "The family tree, kept private.",
       "summary": "Build and preserve the people, relationships, and generations that give your family story its structure."
+    },
+    {
+      "slug": "solitaire",
+      "name": "Gide Solitaire",
+      "short": "Solitaire",
+      "url": "https://solitaire.gidehub.com/",
+      "store": "",
+      "tagline": "Classic solitaire, easy on the eyes.",
+      "summary": "Big, clear cards you tap to move, gentle hints, and deals that can always be won. No ads, no timer, no account."
     }
   ],
   "books": [
