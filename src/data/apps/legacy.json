@@ -3,7 +3,7 @@
   "repo": "Gide-Legacy",
   "name": "Gide Legacy",
   "url": "https://legacy.gidehub.com/",
-  "store": "",
+  "store": "https://apps.apple.com/app/id6804335339",
   "headline": "Every story belongs somewhere safe.",
   "lede": "Gide Legacy helps your family preserve voices, photos, stories, and relationships in a private archive your family controls.",
   "heroNote": "Joining an existing family is free. Only the organizer purchases the family license.",
@@ -19,7 +19,7 @@
     {
       "icon": "◎",
       "title": "Gide cannot read your memories",
-      "body": "Our sign-in service only keeps track of who belongs to your family. It never sees your stories or photos."
+      "body": "Your memory files stay in your local vault and, when connected, your own Google Drive. Gide services handle the account, membership, purchase status, and coordination records needed for family features."
     },
     {
       "icon": "✓",
@@ -53,11 +53,11 @@
     },
     {
       "q": "How do I start an archive for my family?",
-      "a": "Email support@gidehub.com and we'll help you set up your family archive. Once it's ready, you can invite everyone else for free."
+      "a": "Download Gide Legacy from the App Store. You can begin saving memories locally, then follow the family setup in the app when you are ready to share. Joining an existing family is free."
     },
     {
       "q": "Can Gide read our family memories?",
-      "a": "No. Our sign-in service only keeps track of who belongs to your family. It never sees your stories or photos, which stay in your family's private vault."
+      "a": "Your stories, photos, and recordings are stored in your local vault and, when connected, your own Google Drive. Gide services handle account, membership, purchase status, and coordination records. See the Privacy Policy for details."
     },
     {
       "q": "I have an invitation link. What do I do?",
@@ -71,9 +71,5 @@
   "secondaryCta": {
     "label": "I have an invite",
     "href": "/join/"
-  },
-  "primaryCta": {
-    "label": "Start a family archive",
-    "href": "mailto:support@gidehub.com?subject=Starting%20a%20Gide%20Legacy%20family%20archive"
   }
 }

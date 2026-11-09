@@ -81,7 +81,7 @@ function renderAppCards() {
         : `<a class="btn btn-gold btn-sm" href="${app.url}">Learn more</a>`;
       return `<article class="card app-card" data-app="${app.slug}">
             <div class="app-card-head">
-              <img src="${logo(app.slug)}" alt="" width="56" height="56" loading="lazy">
+              <img src="${app.icon || logo(app.slug)}" alt="" width="56" height="56" loading="lazy">
               <h3>${app.name}</h3>
             </div>
             <div class="app-card-body">

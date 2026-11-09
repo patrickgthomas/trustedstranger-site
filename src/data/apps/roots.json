@@ -6,7 +6,7 @@
   "store": "",
   "headline": "Grow the story of where you come from.",
   "lede": "Build a beautiful, private family tree that connects the people in Gide Legacy and preserves the structure of your family for generations.",
-  "heroNote": "No account required &middot; Works offline &middot; Your data stays yours",
+  "heroNote": "Standalone use needs no account &middot; Works offline &middot; Optional Legacy companion features",
   "sectionEyebrow": "Made for real family stories",
   "sectionHeading": "More than names on a chart.",
   "sectionBody": "Roots gives you four thoughtful ways to see your family, plus simple tools to build, organize, move, and preserve your history.",
@@ -93,4 +93,3 @@
     "body": "Build your family tree locally, with automatic directory exchange when you use a compatible Legacy family on the same device."
   }
 }
-

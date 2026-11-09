@@ -72,7 +72,7 @@
       "name": "Gide Legacy",
       "short": "Legacy",
       "url": "https://legacy.gidehub.com/",
-      "store": "",
+      "store": "https://apps.apple.com/app/id6804335339",
       "tagline": "Your family's private archive.",
       "summary": "Preserve voices, photos, stories, and relationships in a private archive your family controls."
     },
@@ -111,6 +111,26 @@
       "store": "https://apps.apple.com/app/id6832171795",
       "tagline": "The classic disc-flipping game, on velvet.",
       "summary": "Big ivory and onyx discs on a velvet board. Play a friendly computer or pass the phone. No ads, no timer, no account."
+    },
+    {
+      "slug": "sudoku",
+      "name": "Gide Sudoku",
+      "short": "Sudoku",
+      "url": "https://gidehub.com/games/sudoku/",
+      "store": "",
+      "icon": "/assets/images/logos/G-main-128.png",
+      "tagline": "A little logic. A quieter day.",
+      "summary": "Clear number tiles, hints that explain, five difficulty levels, and an optional Jewel mode. In development for iPhone and iPad."
+    },
+    {
+      "slug": "alienoutlaw",
+      "name": "Alien Outlaw: Crop Circles",
+      "short": "Alien Outlaw",
+      "url": "https://alienoutlaw.gidehub.com/",
+      "store": "",
+      "icon": "/assets/images/logos/G-main-128.png",
+      "tagline": "One field. One right landing.",
+      "summary": "Join Buckaroo for calm flying-saucer puzzles, painted landscapes, and a daily challenge. Coming soon to iPhone and iPad."
     }
   ],
   "books": [
@@ -288,6 +308,26 @@
         {
           "label": "Gide Roots",
           "href": "https://roots.gidehub.com/"
+        },
+        {
+          "label": "Gide Solitaire",
+          "href": "https://solitaire.gidehub.com/"
+        },
+        {
+          "label": "Gide FreeCell",
+          "href": "https://freecell.gidehub.com/"
+        },
+        {
+          "label": "Gide Reversi",
+          "href": "https://reversi.gidehub.com/"
+        },
+        {
+          "label": "Gide Sudoku",
+          "href": "https://gidehub.com/games/sudoku/"
+        },
+        {
+          "label": "Alien Outlaw: Crop Circles",
+          "href": "https://alienoutlaw.gidehub.com/"
         }
       ]
     },
@@ -309,6 +349,10 @@
         {
           "label": "All Books &amp; Guides",
           "href": "/books/"
+        },
+        {
+          "label": "Stories in development",
+          "href": "/stories/"
         }
       ]
     },
