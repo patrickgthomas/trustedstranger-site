@@ -52,6 +52,18 @@
         </div>
 
         <div class="card">
+          <h3>Mailing address</h3>
+          <p>{{site.business.name}} is operated by {{site.business.operator}}.</p>
+          <p>
+            <address style="font-style: normal;">
+            {{site.business.street}}<br>
+            {{site.business.cityStateZip}}<br>
+            {{site.business.country}}
+            </address>
+          </p>
+        </div>
+
+        <div class="card">
           <h3>Stay connected</h3>
           <p>Occasional notes on new apps, guides, and releases.</p>
           <form class="form" action="https://formspree.io/f/xnjkveje" method="POST">

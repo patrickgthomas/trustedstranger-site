@@ -692,6 +692,7 @@ a.card:hover, .card:has(a:hover) {
 }
 .footer-tagline { margin-top: var(--sp-4); color: var(--white); font-weight: 600; }
 .footer-blurb { margin-top: var(--sp-1); }
+.footer-address { margin-top: var(--sp-2); font-style: normal; line-height: 1.5; }
 .footer-email {
   display: inline-flex;
   align-items: center;

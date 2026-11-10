@@ -8,6 +8,13 @@
     "support": "support@gidehub.com",
     "privacy": "privacy@gidehub.com"
   },
+  "business": {
+    "name": "Gide",
+    "operator": "Patrick Thomas",
+    "street": "7323 SW 88th Way",
+    "cityStateZip": "Gainesville, FL 32608",
+    "country": "United States"
+  },
   "nav": [
     {
       "label": "Apps",
