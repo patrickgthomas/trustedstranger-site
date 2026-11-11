@@ -1,20 +1,21 @@
 # Gide website — publication checkpoint
 
-- Live source: `patrickgthomas/trustedstranger-site`, `main`, baseline `a004630`.
-  `CNAME` and live content confirm this serves `gidehub.com`; the older review
-  branch is behind main and there are no open PRs.
-- Prepared branch: `codex/more-from-gide`.
-- Change: `/more/` catalog with two released games and five other apps, using
-  original Gide branding and direct verified App Store links. Alien Outlaw's
-  homepage card now links to its released listing and uses its published icon.
-- Maintenance: update `src/data/site.json` and run `node build.mjs`. A nonempty
-  verified `store` URL is required for a catalog entry. No unrelated pages changed.
-- Validated: static build, JavaScript syntax, seven official store listings,
-  browser checks at 320/390/768/1280 widths, 200% text, keyboard navigation,
-  local images and section links. Phone and desktop previews inspected.
-- Authorization: Patrick explicitly requested publication. Commit/push to main
-  and verify `https://gidehub.com/more/` after GitHub Pages deployment.
-- Companion change: King Edmund’s Solitaire has a local Settings link to this
-  URL. Its native build/TestFlight work is tracked in the app repository.
-- Resume: after publishing, record the deployment commit and confirm the live
-  page contains seven store links, including app ID `6832376810`.
+- Authoritative branch: `main` in `patrickgthomas/trustedstranger-site`.
+  `CNAME` and live content confirm this serves `gidehub.com`.
+- Published catalog implementation: `3ff5a40`. The `/more/` page is live and was
+  verified over HTTPS with seven direct App Store links, including Alien Outlaw
+  (`6832376810`). The development branch was fast-forwarded into main.
+- Includes two released games and five other apps, original Gide branding and
+  verified store listings. Alien Outlaw's homepage card now has its published
+  icon and store link, replacing its coming-soon copy.
+- Maintenance: edit `src/data/site.json`, then run `node build.mjs`. A nonempty
+  verified `store` URL is required for a catalog entry. The dedicated layout is
+  `src/layouts/catalog.html`; the other pages retain their layout.
+- Validation: static build, JavaScript syntax, official store listings, browser
+  checks at 320/390/768/1280 widths, 200% text, keyboard navigation, images and
+  section links. Phone/desktop previews inspected; live page returned HTTP 200.
+- Companion app: King Edmund’s Solitaire is pushed to its main branch at
+  `aa05982`, with a Settings link to this URL. Local checks pass (114 tests and
+  clean analysis); Codemagic/TestFlight execution is the app's remaining step.
+- Next action: maintain published catalog data as apps are released. No pending
+  website deployment or unmerged feature work remains for this catalog.
