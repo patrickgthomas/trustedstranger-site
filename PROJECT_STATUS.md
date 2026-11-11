@@ -16,6 +16,8 @@
   section links. Phone/desktop previews inspected; live page returned HTTP 200.
 - Companion app: King Edmund’s Solitaire is pushed to its main branch at
   `aa05982`, with a Settings link to this URL. Local checks pass (114 tests and
-  clean analysis); Codemagic/TestFlight execution is the app's remaining step.
+  clean analysis). Codemagic build `6af403096f37641a0017a5b6` has since passed
+  iOS signing, archive and App Store Connect publishing. Apple processing and
+  real-device TestFlight verification remain pending.
 - Next action: maintain published catalog data as apps are released. No pending
   website deployment or unmerged feature work remains for this catalog.
