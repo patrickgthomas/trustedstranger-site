@@ -45,7 +45,9 @@
       "url": "https://guard.gidehub.com/",
       "store": "https://apps.apple.com/app/id6779041138",
       "tagline": "Think clearly about safety.",
-      "summary": "Helps you think through safety concerns, recognize suspicious situations, and stay aware of scams, fraud, and risk."
+      "summary": "Helps you think through safety concerns, recognize suspicious situations, and stay aware of scams, fraud, and risk.",
+      "catalogGroup": "apps",
+      "catalogSummary": "A second look at suspicious messages, emails and links."
     },
     {
       "slug": "calm",
@@ -54,7 +56,9 @@
       "url": "https://calm.gidehub.com/",
       "store": "https://apps.apple.com/app/id6778231374",
       "tagline": "A pause when you need one.",
-      "summary": "Simple calming tools, reflections, and support for stressful moments when you need to pause and reset."
+      "summary": "Simple calming tools, reflections, and support for stressful moments when you need to pause and reset.",
+      "catalogGroup": "apps",
+      "catalogSummary": "Breathing, reflections and quiet sounds for a calmer pause."
     },
     {
       "slug": "faith",
@@ -63,7 +67,9 @@
       "url": "https://faith.gidehub.com/",
       "store": "https://apps.apple.com/app/id6782227143",
       "tagline": "Daily scripture and prayer.",
-      "summary": "Scripture, prayer, reflection, and faith-based encouragement for daily spiritual growth."
+      "summary": "Scripture, prayer, reflection, and faith-based encouragement for daily spiritual growth.",
+      "catalogGroup": "apps",
+      "catalogSummary": "Daily scripture, prayer and reflection."
     },
     {
       "slug": "stride",
@@ -72,7 +78,9 @@
       "url": "https://stride.gidehub.com/",
       "store": "https://apps.apple.com/app/id6786793060",
       "tagline": "Turn steps into progress.",
-      "summary": "Encourages movement, progress, and personal growth by turning steps and goals into visible progress."
+      "summary": "Encourages movement, progress, and personal growth by turning steps and goals into visible progress.",
+      "catalogGroup": "apps",
+      "catalogSummary": "Turn everyday steps into peaceful gardens."
     },
     {
       "slug": "legacy",
@@ -81,7 +89,9 @@
       "url": "https://legacy.gidehub.com/",
       "store": "https://apps.apple.com/app/id6804335339",
       "tagline": "Your family's private archive.",
-      "summary": "Preserve voices, photos, stories, and relationships in a private archive your family controls."
+      "summary": "Preserve voices, photos, stories, and relationships in a private archive your family controls.",
+      "catalogGroup": "apps",
+      "catalogSummary": "Keep family stories, voices and photographs together."
     },
     {
       "slug": "roots",
@@ -90,7 +100,8 @@
       "url": "https://roots.gidehub.com/",
       "store": "",
       "tagline": "The family tree, kept private.",
-      "summary": "Build and preserve the people, relationships, and generations that give your family story its structure."
+      "summary": "Build and preserve the people, relationships, and generations that give your family story its structure.",
+      "catalogGroup": "apps"
     },
     {
       "slug": "solitaire",
@@ -99,7 +110,8 @@
       "url": "https://solitaire.gidehub.com/",
       "store": "",
       "tagline": "Classic solitaire, easy on the eyes.",
-      "summary": "Big, clear cards you tap to move, gentle hints, and deals that can always be won. No ads, no timer, no account."
+      "summary": "Big, clear cards you tap to move, gentle hints, and deals that can always be won. No ads, no timer, no account.",
+      "catalogGroup": "games"
     },
     {
       "slug": "freecell",
@@ -108,7 +120,8 @@
       "url": "https://freecell.gidehub.com/",
       "store": "",
       "tagline": "Classic FreeCell, easy on the eyes.",
-      "summary": "Big, clear cards you tap to move, hints that lead to a win, and the classic numbered games. No ads, no timer, no account."
+      "summary": "Big, clear cards you tap to move, hints that lead to a win, and the classic numbered games. No ads, no timer, no account.",
+      "catalogGroup": "games"
     },
     {
       "slug": "reversi",
@@ -117,7 +130,9 @@
       "url": "https://reversi.gidehub.com/",
       "store": "https://apps.apple.com/app/id6832171795",
       "tagline": "The classic disc-flipping game, on velvet.",
-      "summary": "Big ivory and onyx discs on a velvet board. Play a friendly computer or pass the phone. No ads, no timer, no account."
+      "summary": "Big ivory and onyx discs on a velvet board. Play a friendly computer or pass the phone. No ads, no timer, no account.",
+      "catalogGroup": "games",
+      "catalogSummary": "Classic disc-flipping strategy on a velvet board."
     },
     {
       "slug": "sudoku",
@@ -127,17 +142,20 @@
       "store": "",
       "icon": "/assets/images/logos/G-main-128.png",
       "tagline": "A little logic. A quieter day.",
-      "summary": "Clear number tiles, hints that explain, five difficulty levels, and an optional Jewel mode. In development for iPhone and iPad."
+      "summary": "Clear number tiles, hints that explain, five difficulty levels, and an optional Jewel mode. In development for iPhone and iPad.",
+      "catalogGroup": "games"
     },
     {
       "slug": "alienoutlaw",
       "name": "Alien Outlaw: Crop Circles",
       "short": "Alien Outlaw",
       "url": "https://alienoutlaw.gidehub.com/",
-      "store": "",
-      "icon": "/assets/images/logos/G-main-128.png",
+      "store": "https://apps.apple.com/us/app/alien-outlaw-crop-circles/id6832376810",
+      "icon": "/assets/images/apps/alienoutlaw/icon.jpg",
       "tagline": "One field. One right landing.",
-      "summary": "Join Buckaroo for calm flying-saucer puzzles, painted landscapes, and a daily challenge. Coming soon to iPhone and iPad."
+      "summary": "Join Buckaroo for calm flying-saucer logic puzzles, painted landscapes, and a daily challenge.",
+      "catalogGroup": "games",
+      "catalogSummary": "Calm flying-saucer puzzles with Buckaroo, your cowboy guide."
     }
   ],
   "books": [

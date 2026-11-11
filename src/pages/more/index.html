@@ -1,0 +1,27 @@
+<!--{
+  "out": "more/index.html",
+  "layout": "catalog",
+  "title": "More from Gide | Games and Apps",
+  "description": "Discover released Gide games and apps, with direct App Store links. Quiet games and useful tools for everyday life."
+}-->
+    <section class="catalog-intro" aria-labelledby="catalog-title">
+      <p class="eyebrow">The Gide collection</p>
+      <h1 id="catalog-title">More from Gide</h1>
+      <p class="catalog-lede">Games to unwind with. Tools for everyday life.</p>
+      <p class="catalog-availability">Explore our released apps on the App Store.</p>
+      <nav class="catalog-sections" aria-label="Browse the collection">
+        <a href="#games">Games</a><a href="#other-apps">Other apps</a>
+      </nav>
+    </section>
+    <section class="catalog-section" id="games" aria-labelledby="games-title">
+      <h2 id="games-title">Games</h2>
+      <div class="catalog-grid">
+        {{catalogGames}}
+      </div>
+    </section>
+    <section class="catalog-section" id="other-apps" aria-labelledby="apps-title">
+      <h2 id="apps-title">Other apps</h2>
+      <div class="catalog-grid">
+        {{catalogApps}}
+      </div>
+    </section>

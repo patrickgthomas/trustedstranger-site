@@ -70,6 +70,30 @@ function renderLegalLinks() {
 
 const logo = (slug) => `/assets/images/logos/G-${slug}-128.png`;
 
+const escapeHtml = (value) => String(value).replace(/[&<>"']/g,
+  (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
+
+// One shared catalog for links from our apps. A store URL is the release gate;
+// upcoming products remain on the main site but never appear as downloads here.
+function renderCatalog(group) {
+  return site.apps.filter((app) => app.catalogGroup === group && app.store)
+    .map((app) => {
+      const store = new URL(app.store);
+      if (store.protocol !== 'https:' || store.hostname !== 'apps.apple.com') {
+        throw new Error(`Verify the App Store URL for catalog app ${app.slug}`);
+      }
+      const name = escapeHtml(app.name);
+      return `<article class="catalog-card">
+          <img src="${escapeHtml(app.icon || logo(app.slug))}" alt="" width="64" height="64" loading="lazy">
+          <div class="catalog-card-copy">
+            <h3>${name}</h3>
+            <p>${escapeHtml(app.catalogSummary || app.summary)}</p>
+          </div>
+          <a class="catalog-store" href="${escapeHtml(store.href)}" aria-label="View ${name} on the App Store">App Store <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 11 11 3M3 3h8v8"/></svg></a>
+        </article>`;
+    }).join('\n        ');
+}
+
 // One card per app. The coloured head carries the app's own brand colour so
 // the six read as a family rather than six identical white rectangles.
 function renderAppCards() {
@@ -166,12 +190,15 @@ function renderPage(meta, body) {
       bookCards: renderBookCards(),
       bookCardsFeatured: renderBookCards(3),
       episodes: renderEpisodes(),
+      catalogGames: renderCatalog('games'),
+      catalogApps: renderCatalog('apps'),
     }),
   };
 
   const dest = join(ROOT, out);
   mkdirSync(dirname(dest), { recursive: true });
-  writeFileSync(dest, fill(base, values));
+  const layout = meta.layout === 'catalog' ? read('layouts', 'catalog.html') : base;
+  writeFileSync(dest, fill(layout, values));
 }
 
 // One detail page per book, straight from site.books.

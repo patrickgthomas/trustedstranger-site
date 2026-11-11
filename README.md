@@ -3,6 +3,28 @@
 The main Gide site, served at [gidehub.com](https://gidehub.com/) via GitHub Pages,
 plus the tooling that generates the six per-app subdomain sites.
 
+Current publication checkpoint: [PROJECT_STATUS.md](PROJECT_STATUS.md).
+
+## More from Gide
+
+`https://gidehub.com/more/` is the dedicated catalog opened from app Settings.
+It has a minimal layout, two sections (Games and Other apps), and direct store
+links. Listings come from the same `src/data/site.json` registry as the homepage:
+
+- `catalogGroup`: `games` or `apps`.
+- `catalogSummary`: a short description for this page.
+- `store`: a verified, public App Store URL. Empty values hide upcoming apps.
+
+To add or update a listing, edit that registry, run `node build.mjs`, review the
+generated `more/index.html` and homepage changes, then publish the website.
+Apps already pointing to `/more/` need no release for catalog-only updates.
+The catalog currently lists seven verified App Store releases, including Alien
+Outlaw: Crop Circles. Android store buttons can be added when verified URLs are
+available. Do not list unreleased products as downloads.
+
+The page uses `src/layouts/catalog.html` and `assets/css/catalog.css`; the other
+pages keep their existing layout. Maintain the source, not generated HTML.
+
 ## Building
 
     node build.mjs            # build the main site
