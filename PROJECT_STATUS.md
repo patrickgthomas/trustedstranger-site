@@ -21,3 +21,16 @@
   real-device TestFlight verification remain pending.
 - Next action: maintain published catalog data as apps are released. No pending
   website deployment or unmerged feature work remains for this catalog.
+
+## Inspector Quill’s Sudoku trailer — November 21, 2026
+
+- The canonical page remains `/games/sudoku/`; source is
+  `src/pages/games/sudoku/index.html` on `main`. Baseline: `587daaf`.
+- Replaced the illustrated placeholder board with the approved 32-second
+  marketing video and a 53 KB poster from its closing artwork. The native
+  player has visible controls, inline mobile playback and metadata-only preload;
+  it does not autoplay. Full video playback is user initiated.
+- Updated the page’s hero and metadata to Inspector Quill’s Sudoku. Shared
+  navigation, footer and existing feature sections remain intact.
+- Build and narrow video/mobile checks are documented in the publication
+  result; GitHub Pages publishes the generated root HTML from `main`.
