@@ -136,13 +136,13 @@
     },
     {
       "slug": "sudoku",
-      "name": "Gide Sudoku",
+      "name": "Inspector Quill’s Sudoku",
       "short": "Sudoku",
-      "url": "https://gidehub.com/games/sudoku/",
+      "url": "https://sudoku.gidehub.com/",
       "store": "",
       "icon": "/assets/images/logos/G-main-128.png",
-      "tagline": "A little logic. A quieter day.",
-      "summary": "Clear number tiles, hints that explain, five difficulty levels, and an optional Jewel mode. In development for iPhone and iPad.",
+      "tagline": "Solve Sudoku. Follow the clues.",
+      "summary": "Join Inspector Quill on a Sudoku adventure. Collect illustrated clues, solve cases, and recover stolen jewels. Coming soon for iPhone and iPad.",
       "catalogGroup": "games"
     },
     {
@@ -347,8 +347,8 @@
           "href": "https://reversi.gidehub.com/"
         },
         {
-          "label": "Gide Sudoku",
-          "href": "https://gidehub.com/games/sudoku/"
+          "label": "Inspector Quill’s Sudoku",
+          "href": "https://sudoku.gidehub.com/"
         },
         {
           "label": "Alien Outlaw: Crop Circles",

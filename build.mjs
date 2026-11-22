@@ -166,7 +166,7 @@ let base, header, footer, year;
 
 function renderPage(meta, body) {
   const out = meta.out;
-  const canonical = `${site.domain}/${out.replace(/index\.html$/, '')}`;
+  const canonical = meta.canonical || `${site.domain}/${out.replace(/index\.html$/, '')}`;
 
   const values = {
     ...meta,
@@ -318,12 +318,14 @@ function buildSitemap(pages) {
     ...pages.map((page) => {
       const raw = read('pages', page);
       const meta = JSON.parse(raw.match(/^<!--([\s\S]*?)-->/)[1]);
+      // Pages promoted to a separate app domain belong in that site's sitemap.
+      if (meta.canonical && new URL(meta.canonical).origin !== site.domain) return null;
       return (meta.out || page).replace(/index\.html$/, '');
     }),
     ...site.books.map((book) => `books/${book.slug}/`),
   ]
     // 404 is not a destination.
-    .filter((path) => path !== '404.html')
+    .filter((path) => path !== null && path !== '404.html')
     .sort();
 
   const body = paths

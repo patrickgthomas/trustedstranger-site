@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Inspector Quill’s Sudoku | Gide</title>
   <meta name="description" content="Join Inspector Quill on a Sudoku adventure. Explore the world, follow the clues, and recover hidden jewels with classic numbers or Jewel mode.">
-  <link rel="canonical" href="https://gidehub.com/games/sudoku/">
+  <link rel="canonical" href="https://sudoku.gidehub.com/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Gide">
   <meta property="og:title" content="Inspector Quill’s Sudoku | Gide">
   <meta property="og:description" content="Join Inspector Quill on a Sudoku adventure. Explore the world, follow the clues, and recover hidden jewels with classic numbers or Jewel mode.">
-  <meta property="og:url" content="https://gidehub.com/games/sudoku/">
+  <meta property="og:url" content="https://sudoku.gidehub.com/">
   <meta property="og:image" content="https://gidehub.com/assets/images/logos/G-main.png">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -78,6 +78,12 @@
 
 
 <main id="main">
+<script data-sudoku-hub-redirect>
+// Keep existing shared links, including #trailer, working after the domain move.
+if (location.hostname === 'gidehub.com' || location.hostname === 'www.gidehub.com') {
+  location.replace('https://sudoku.gidehub.com/' + location.search + location.hash);
+}
+</script>
 <style>
 .sudoku-hero{background:radial-gradient(ellipse at top right,#e5ddf3,transparent 60%),#fbf7ed;padding:var(--sp-16) 0}
 .sudoku-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:var(--sp-12);align-items:center}
@@ -114,7 +120,8 @@
   </div>
 </section>
 <section class="section" id="features"><div class="wrap"><div class="section-head"><p class="eyebrow">Classic Sudoku, made comfortable</p><h2>Think it through. Enjoy the moment.</h2></div><div class="grid grid-3"><article class="sudoku-feature"><h3>Hints that teach</h3><p>Read the next logical step in plain English. Tap again to fill it in, or work it out yourself.</p></article><article class="sudoku-feature"><h3>Five ways to challenge yourself</h3><p>Choose Gentle, Easy, Steady, Sharp, or Expert. Every puzzle is checked for one unique solution.</p></article><article class="sudoku-feature"><h3>A little jewel magic</h3><p>Swap the numbers for nine colorful jewels. Keep small numbers visible if you want a familiar guide.</p></article><article class="sudoku-feature"><h3>Your daily puzzle</h3><p>Try the same daily puzzle as other players. The week starts gently and grows more challenging.</p></article><article class="sudoku-feature"><h3>Room to change your mind</h3><p>Use notes, erase a number, or undo a move. Optional mistake marking helps you find your way.</p></article><article class="sudoku-feature"><h3>Quiet by choice</h3><p>Turn sounds and animations off whenever you prefer. Your progress and settings stay on your device.</p></article></div></div></section>
-<section class="section section-cream"><div class="wrap wrap-narrow"><h2>Simple rules. Plenty to discover.</h2><p class="lede">Fill every row, column, and 3×3 box with the numbers 1–9, using each number once. In Jewel mode, the same rules apply to the nine jewels.</p><h3>When can I download it?</h3><p>Gide Sudoku is being prepared for its first App Store release. A download link will be added when it is available.</p><h3>Do I need an account?</h3><p>No. The game works offline and saves progress locally on your device.</p><h3>Where do I get help?</h3><p>Email <a href="mailto:support@gidehub.com?subject=Gide%20Sudoku%20support">support@gidehub.com</a>. Include your app version, device model, and a description of what happened.</p><p><a href="/privacy.html">Privacy Policy</a> · <a href="/#apps">Explore all Gide apps</a></p></div></section>
+<section class="section section-cream"><div class="wrap wrap-narrow"><h2>Simple rules. Plenty to discover.</h2><p class="lede">Fill every row, column, and 3×3 box with the numbers 1–9, using each number once. In Jewel mode, the same rules apply to the nine jewels.</p><h3>When can I download it?</h3><p>Inspector Quill’s Sudoku is being prepared for its first App Store release. A download link will be added when it is available.</p><h3>Do I need an account?</h3><p>No. The game works offline and saves progress locally on your device.</p><h3>Where do I get help?</h3><p>Email <a href="mailto:support@gidehub.com?subject=Inspector%20Quill%E2%80%99s%20Sudoku%20support">support@gidehub.com</a>. Include your app version, device model, and a description of what happened.</p><p><a href="/privacy.html">Privacy Policy</a> · <a href="/#apps">Explore all Gide apps</a></p></div></section>
+
 </main>
 
 <footer class="site-footer">
@@ -148,7 +155,7 @@
             <li><a href="https://solitaire.gidehub.com/">Gide Solitaire</a></li>
             <li><a href="https://freecell.gidehub.com/">Gide FreeCell</a></li>
             <li><a href="https://reversi.gidehub.com/">Gide Reversi</a></li>
-            <li><a href="https://gidehub.com/games/sudoku/">Gide Sudoku</a></li>
+            <li><a href="https://sudoku.gidehub.com/">Inspector Quill’s Sudoku</a></li>
             <li><a href="https://alienoutlaw.gidehub.com/">Alien Outlaw: Crop Circles</a></li>
           </ul>
         </div>

@@ -51,6 +51,28 @@ Each app site is generated from `src/data/apps/<slug>.json` plus its brand palet
 in `src/data/palettes.json`, and written into that app's own repo as a sibling
 directory of this one.
 
+## Inspector Quill’s Sudoku website
+
+Sudoku's public address is `https://sudoku.gidehub.com/`, served by the existing
+`patrickgthomas/gide-sudoku-site` repository. Its authored source stays here at
+`src/pages/games/sudoku/index.html`, so the trailer and page have one source.
+
+    node build.mjs
+    node tools/build-sudoku-site.mjs
+
+The exporter requires a sibling clone named `gide-sudoku-site`. It writes that
+repo's `index.html`, `CNAME`, `.nojekyll`, `robots.txt` and `sitemap.xml`. Shared
+assets and Gide navigation use absolute `https://gidehub.com` URLs; local links
+such as `#trailer` stay within the Sudoku page. Commit and publish both repos
+when shared page content or navigation changes. Do not hand-edit the exported
+page or run the unrelated app-site generator for Sudoku.
+
+The old `/games/sudoku/` page forwards browser visits to the subdomain while
+preserving the query string and fragment. It retains the complete content for
+clients without JavaScript and identifies the subdomain as canonical. The old
+`/apps/sudoku/` redirect is generated from the shared app registry as before.
+Keep this repo's `CNAME` set to `gidehub.com`.
+
 ## Images
 
 `tools/resize-app-shots.py` and the sized variants under `assets/images/` keep the
